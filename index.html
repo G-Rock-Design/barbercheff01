@@ -206,11 +206,6 @@
         .footer-links { margin: 30px 0; display: flex; justify-content: center; gap: 20px; }
         .footer-links a { color: var(--color-white); font-size: 1.5rem; transition: var(--trans-fast); }
         .footer-links a:hover { color: var(--color-accent); }
-        
-        /* Mobile Bar */
-        .mobile-booking-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--color-white); padding: 15px 20px; box-shadow: 0 -4px 10px rgba(0,0,0,0.05); z-index: 999; border-top: 1px solid var(--color-border); }
-        .mobile-booking-bar .elementor-button { width: 100%; }
-
         /* Floating WhatsApp */
         .floating-whatsapp { position: fixed; bottom: 30px; right: 30px; background-color: #25D366; color: #FFF; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 35px; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); z-index: 1000; transition: transform 0.3s ease; text-decoration: none; }
         .floating-whatsapp:hover { transform: scale(1.1); color: #FFF; }
@@ -232,12 +227,10 @@
             .menu-toggle { display: block; }
             
             .hero-grid, .identity-grid, .location-grid, .gallery { grid-template-columns: 1fr; gap: 30px; }
-            .hero-grid { padding-top: 20px; text-align: left; }
+            .hero-grid { padding-top: 20px; text-align: center; }
             .hero-image { order: -1; }
             
-            .mobile-booking-bar { display: block; padding-bottom: env(safe-area-inset-bottom, 15px); }
-            body { padding-bottom: 80px; } /* Space for mobile bar */
-            .floating-whatsapp { bottom: 90px; right: 20px; width: 50px; height: 50px; font-size: 28px; }
+            .floating-whatsapp { bottom: 20px; right: 20px; width: 50px; height: 50px; font-size: 28px; }
         }
         
         @media (max-width: 390px) {
@@ -492,11 +485,6 @@
             (21) 97698-5317
         </p>
     </footer>
-
-    <!-- MOBILE BOOKING BAR -->
-    <div class="mobile-booking-bar">
-        <a href="https://sites.appbarber.com.br/barbercheff-jmf9" class="elementor-button btn-primary">Agendar horário</a>
-    </div>
 
     <!-- FLOATING WHATSAPP -->
     <a href="https://wa.me/5521976985317" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
