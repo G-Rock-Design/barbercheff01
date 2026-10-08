@@ -1,0 +1,384 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDb33bajvc7C%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - dialog:
+    - button "Fechar":
+      - img "Fechar"
+    - link "Foto do perfil de barberchef01":
+      - img "Foto do perfil de barberchef01"
+    - generic: Não perca nenhum post de barberchef01
+    - generic: Cadastre-se no Instagram para ficar por dentro das novidades.
+    - text: Ao continuar, você concorda com os
+    - link "Termos de Uso":
+      - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+    - text: e a
+    - link "Política de Privacidade":
+      - /url: https://privacycenter.instagram.com/policy/
+    - text: do Instagram.
+    - link "Cadastre-se":
+      - /url: /accounts/emailsignup/
+    - link "Entrar":
+      - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+  - img "Video by Barber Cheff on August 10, 2026. Pode ser uma imagem de uma ou mais pessoas, barba e texto que diz \"RTE BARBA ΒA BAR\"."
+  - link "Foto do perfil de barberchef01":
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - generic: •
+  - button "Seguir"
+  - link "Áudio original":
+    - /url: /reels/audio/27769314226011976/
+    - generic: Áudio original
+  - button "Mais opções":
+    - img "Mais opções"
+  - separator
+  - link "Foto do perfil de barberchef01":
+    - /url: /barberchef01/
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - time: 8 sem
+  - text: 🔥promoção por tempo limitado.
+  - link "#barbearia":
+    - /url: /explore/tags/barbearia/
+  - link "#barbeiro":
+    - /url: /explore/tags/barbeiro/
+  - link "#assinatura":
+    - /url: /explore/tags/assinatura/
+  - link "#duquedecaxiasrj":
+    - /url: /explore/tags/duquedecaxiasrj/
+  - link "#ego":
+    - /url: /explore/tags/ego/
+  - button "Carregar mais comentários":
+    - img "Carregar mais comentários"
+  - link "Foto do perfil de wellgf94":
+    - /url: /wellgf94/
+    - img "Foto do perfil de wellgf94"
+  - link "wellgf94":
+    - /url: /wellgf94/
+    - generic: wellgf94
+  - link "5 sem":
+    - /url: /p/Db33bajvc7C/c/18622023775036242/
+    - time: 5 sem
+  - generic: Esse mês eu ja garanto a minha kkk
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de wellingtondeoliveiracorrea":
+    - /url: /wellingtondeoliveiracorrea/
+    - img "Foto do perfil de wellingtondeoliveiracorrea"
+  - link "wellingtondeoliveiracorrea":
+    - /url: /wellingtondeoliveiracorrea/
+    - generic: wellingtondeoliveiracorrea
+  - link "6 sem":
+    - /url: /p/Db33bajvc7C/c/18604219201014015/
+    - time: 6 sem
+  - generic: Braboooo
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de _gustav.g":
+    - /url: /_gustav.g/
+    - img "Foto do perfil de _gustav.g"
+  - link "_gustav.g":
+    - /url: /_gustav.g/
+    - generic: _gustav.g
+  - link "7 sem":
+    - /url: /p/Db33bajvc7C/c/17901844161507121/
+    - time: 7 sem
+  - generic: 🔥🔥🔥🔥
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de 021_dias7":
+    - /url: /021_dias7/
+    - img "Foto do perfil de 021_dias7"
+  - link "021_dias7":
+    - /url: /021_dias7/
+    - generic: 021_dias7
+  - link "7 sem":
+    - /url: /p/Db33bajvc7C/c/18123752467702252/
+    - time: 7 sem
+  - generic: O cara:⁶🤷🏻⁷
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de blackcharme89":
+    - /url: /blackcharme89/
+    - img "Foto do perfil de blackcharme89"
+  - link "blackcharme89":
+    - /url: /blackcharme89/
+    - generic: blackcharme89
+  - link "7 sem":
+    - /url: /p/Db33bajvc7C/c/17999696162995849/
+    - time: 7 sem
+  - generic: Kkkkkkkkkkkkkkkkkkk formando áurea kkkkkkkkkkkkkkkkkkk
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de calcada.frango":
+    - /url: /calcada.frango/
+    - img "Foto do perfil de calcada.frango"
+  - link "calcada.frango":
+    - /url: /calcada.frango/
+    - generic: calcada.frango
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18117887639510553/
+    - time: 8 sem
+  - generic: 👏👏
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de weimaraner_lovers_sansa":
+    - /url: /weimaraner_lovers_sansa/
+    - img "Foto do perfil de weimaraner_lovers_sansa"
+  - link "weimaraner_lovers_sansa":
+    - /url: /weimaraner_lovers_sansa/
+    - generic: weimaraner_lovers_sansa
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18127217176674442/
+    - time: 8 sem
+  - generic: 👏👏👏
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de o.anderson.reis":
+    - /url: /o.anderson.reis/
+    - img "Foto do perfil de o.anderson.reis"
+  - link "o.anderson.reis":
+    - /url: /o.anderson.reis/
+    - generic: o.anderson.reis
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18613304437054614/
+    - time: 8 sem
+  - generic: Brabo !!
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de thu.anyrodrigues":
+    - /url: /thu.anyrodrigues/
+    - img "Foto do perfil de thu.anyrodrigues"
+  - link "thu.anyrodrigues":
+    - /url: /thu.anyrodrigues/
+    - generic: thu.anyrodrigues
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18487341580110094/
+    - time: 8 sem
+  - generic: 🚀
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de aleffelanes":
+    - /url: /aleffelanes/
+    - img "Foto do perfil de aleffelanes"
+  - link "aleffelanes":
+    - /url: /aleffelanes/
+    - generic: aleffelanes
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18365858473211621/
+    - time: 8 sem
+  - generic: Braboooo
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de tattysilva28":
+    - /url: /tattysilva28/
+    - img "Foto do perfil de tattysilva28"
+  - link "tattysilva28":
+    - /url: /tattysilva28/
+    - generic: tattysilva28
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/17975284275082388/
+    - time: 8 sem
+  - generic: 👏👏👏👏
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de amorimbruno__":
+    - /url: /amorimbruno__/
+    - img "Foto do perfil de amorimbruno__"
+  - link "amorimbruno__":
+    - /url: /amorimbruno__/
+    - generic: amorimbruno__
+  - link "8 sem":
+    - /url: /p/Db33bajvc7C/c/18130185058622445/
+    - time: 8 sem
+  - generic: farmou aura!
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - button "Curtir":
+    - img "Curtir"
+  - button "263"
+  - button "Comentar":
+    - img "Comentar"
+  - button "16"
+  - button "Compartilhar":
+    - img "Compartilhar"
+  - button "Salvar":
+    - img "Salvar"
+  - link "10 de agosto":
+    - /url: /barberchef01/reel/Db33bajvc7C/
+    - time: 10 de agosto
+  - link "Entrar":
+    - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDb33bajvc7C%2F&source=post_comment_input
+  - text: para curtir ou comentar.
+  - separator
+  - text: Mais posts de
+  - link "barberchef01":
+    - /url: /barberchef01/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DeDgDJDKlyl/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Ddco16nK0_6/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DcecsdvvjK9/
+    - img "Clipe"
+  - link "Carrossel":
+    - /url: /barberchef01/p/DbyGY_5nJfJ/
+    - img "Carrossel"
+  - link:
+    - /url: /barberchef01/p/DbyGEvlq2WT/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbnwrXFqbDn/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbZj6qeKaAD/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Da2-qr8q14p/
+    - img "Clipe"
+  - link "Ver mais posts":
+    - /url: /barberchef01/
+    - generic: Ver mais posts
+  - separator
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta

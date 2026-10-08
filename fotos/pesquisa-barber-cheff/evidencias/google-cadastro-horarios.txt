@@ -1,0 +1,299 @@
+- link "Ir para o conteúdo principal"
+- link "Ajuda sobre acessibilidade":
+  - /url: https://support.google.com/websearch/answer/181196?hl=pt-BR
+- search:
+  - link "Saiba mais sobre a Semana Mundial do Espaço de 2026":
+    - /url: https://www.google.com/webhp?hl=pt-BR&ictx=2&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQPXoECAYQBA
+    - img "Saiba mais sobre a Semana Mundial do Espaço de 2026"
+  - combobox "Pesquisar": BARBER CHEFF Duque de Caxias BARBER CHEFF Duque de Caxias
+  - button "Limpar":
+  - button "Ferramentas de inserção de texto":
+  - button "Pesquisar por voz":
+  - button "Pesquisa por imagem":
+- button "Configurações":
+- button "Compartilhar":
+- button "Google Apps":
+- link "Fazer login":
+  - /url: https://accounts.google.com/ServiceLogin?hl=pt-BR&passive=true&continue=https://www.google.com/search%3Fsca_esv%3D6fa6992d3676efb6%26cs%3D0%26output%3Dsearch%26kgmid%3D/g/11zdgzwf1d%26q%3DBARBER%2BCHEFF%26shem%3Ddlvs1,epsd1,esd2e,ltae,rimspwouoe%26shndl%3D30%26source%3Dsh/x/loc/uni/m1/1%26kgs%3Dbadb586b28fa7e6a%26utm_source%3Ddlvs1,epsd1,esd2e,ltae,rimspwouoe,sh/x/loc/uni/m1/1%26sei%3DNJ7FaoXQFavP1sQP_fqXoAs&ec=futura_srp_og_si_72236_p
+  - generic: Fazer login
+- navigation:
+  - list:
+    - link "Modo IA":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&udm=50&source=sh/x/loc/uni/m1/1&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ2J8OegQIDRAD
+      - generic: Modo IA
+    - link "Tudo" [disabled]:
+      - generic: Tudo
+    - link "Imagens":
+      - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&udm=2&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&q=BARBER+CHEFF+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQtKgLegQIFhAB
+      - generic: Imagens
+    - link "Vídeos curtos":
+      - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&udm=39&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&q=BARBER+CHEFF+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQs6gLegQIFRAB
+      - generic: Vídeos curtos
+    - link "Maps":
+      - /url: https://maps.google.com/maps?sca_esv=6fa6992d3676efb6&cs=0&output=search&q=BARBER+CHEFF+Duque+de+Caxias&source=lnms&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&entry=mc&ved=1t:200715&ictx=111
+      - generic: Maps
+    - link "Shopping":
+      - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&udm=28&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&q=BARBER+CHEFF+Duque+de+Caxias&ved=1t:220175&ictx=111
+      - generic: Shopping
+    - link "Vídeos":
+      - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&udm=vids&fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszkLt6nAp8aiRKj5vMjqZApM7d94IgJZsWyTKWnCa3K4uvZh8P22hL4qAaOQR2OqHwogCrTePSgZQEj5hTEPHoHxiMLYhidipoy071nv49pxL_RouaKRn2GRWunBTiTovMbBDDxOEycobFDEV2wU8MIKrKtXEdjjfNZyi8jtFlmfax3UFpS1A3MLtRVRnB-RhQO4nygQ&q=BARBER+CHEFF+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQtKgLegQIEhAB
+      - generic: Vídeos
+    - button "Mais filtros":
+      - generic "Mais filtros":
+        - generic: Mais
+  - button "Ferramentas":
+    - generic: Ferramentas
+- heading "Resultados da pesquisa" [level=1]
+- main:
+  - 'heading "Você quis dizer: BARBER CHEF" [level=2]':
+    - text: "Você quis dizer:"
+    - link "BARBER CHEF":
+      - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=BARBER+CHEF&spell=1&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQBSgAegQIFxAB
+      - text: BARBER
+      - generic: CHEF
+  - button "Ver fotos":
+    - generic: Ver fotos
+  - link "Mapa de BARBER CHEFF":
+    - /url: /maps/place/BARBER+CHEFF/data=!4m2!3m1!1s0x0:0xd352eeed9c63fd6e?sa=X&ved=1t:2428&ictx=111
+    - img "Mapa de BARBER CHEFF"
+  - link "Mapa de BARBER CHEFF":
+    - /url: /maps/place/BARBER+CHEFF/data=!4m2!3m1!1s0x0:0xd352eeed9c63fd6e?sa=X&ved=1t:2428&ictx=111
+    - img "Mapa de BARBER CHEFF"
+  - link "Ver por fora":
+    - /url: /local/place/fid/0x9973d68b213947:0xd352eeed9c63fd6e/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DOun_ThCudgDcVVkWkWVPFQ%26cb_client%3Dsearch.gws-prod.grass%26yaw%3D135.71184%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFk91bl9UaEN1ZGdEY1ZWa1drV1ZQRlE%3D&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQpx96BAgaEBI
+    - generic: Ver por fora
+  - heading "BARBER CHEFF" [level=2]
+  - generic: Barbearia em Duque de Caxias, Rio de Janeiro
+  - button "Mais opções de BARBER CHEFF":
+    - img "Mais opções de BARBER CHEFF":
+  - link "Site":
+    - /url: https://linktr.ee/BarberCheff
+    - generic: Site
+  - link "Rotas":
+    - generic: Rotas
+  - button "+4":
+    - generic: "+4"
+  - link "Agendar on-line":
+    - /url: https://sites.appbarber.com.br/barbercheff-jmf9?source=google_reserve&rwg_token=AE37R_he0hqyEfUQ4n9BJK_Wq6tzDYj5ud7yI2rsUqEsQ-Wpc0MQiYgDppsvsWGhRhciZR4vyrQSGhKdWFY0AqyWJRTZrYUZoQ%3D%3D
+    - generic: Agendar on-line
+  - separator
+  - link "Endereço":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=barber+cheff+duque+de+caxias+endere%C3%A7o&ludocid=15227495994391526766&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ6BN6BAggEAI
+  - text: ":"
+  - text: Av. Visc. de Itaúna, 508 - Jardim Primavera, Duque de Caxias - RJ, 25214-415
+  - generic: "Telefone:"
+  - link "Ligar para (21) 97698-5317":
+    - /url: "#"
+    - text: (21) 97698-5317
+  - link "Horário de funcionamento":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=barber+cheff+duque+de+caxias+hor%C3%A1rio&ludocid=15227495994391526766&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ6BN6BAgiEAI
+  - text: ":"
+  - button "terça-feira 09:00–20:00 quarta-feira 09:00–20:00 quinta-feira 09:00–20:00 sexta-feira 09:00–20:00 sábado 08:00–20:00 domingo 09:00–14:00 segunda-feira (Dia de Nossa Senhora Aparecida) 09:00–20:00 Os horários podem ser diferentes" [expanded] [active]:
+    - table:
+      - rowgroup:
+        - row "terça-feira 09:00–20:00":
+          - cell "terça-feira"
+          - cell "09:00–20:00"
+        - row "quarta-feira 09:00–20:00":
+          - cell "quarta-feira"
+          - cell "09:00–20:00"
+        - row "quinta-feira 09:00–20:00":
+          - cell "quinta-feira"
+          - cell "09:00–20:00"
+        - row "sexta-feira 09:00–20:00":
+          - cell "sexta-feira"
+          - cell "09:00–20:00"
+        - row "sábado 08:00–20:00":
+          - cell "sábado"
+          - cell "08:00–20:00"
+        - row "domingo 09:00–14:00":
+          - cell "domingo"
+          - cell "09:00–14:00"
+        - row "segunda-feira (Dia de Nossa Senhora Aparecida) 09:00–20:00 Os horários podem ser diferentes":
+          - cell "segunda-feira (Dia de Nossa Senhora Aparecida)":
+            - text: segunda-feira
+            - generic: (Dia de Nossa Senhora Aparecida)
+          - cell "09:00–20:00 Os horários podem ser diferentes":
+            - text: 09:00–20:00
+            - generic: Os horários podem ser diferentes
+  - button "Sugerir novos horários": Sugerir novos horários
+  - link "Sugerir uma alteração":
+    - /url: "#"
+  - text: ·
+  - link "É proprietário desta empresa?":
+    - /url: https://business.google.com/create?hl=pt-BR&getstarted&authuser=0&fp=15227495994391526766&gmbsrc=br-pt-BR-et-ip-z-gmb-s-z-l~skp%7Cclaimbz_aoc_a%7Cu&ppsrc=GMBSI
+  - separator
+  - heading "Avaliações" [level=3]
+  - heading "Comentários do Google" [level=3]
+  - button "Mais informações":
+  - button "Comentar":
+    - generic: Comentar
+  - button "Adicionar fotos":
+    - generic: Adicionar fotos
+  - button "Seja a primeira pessoa a avaliar":
+    - generic: Seja a primeira pessoa a avaliar
+  - separator
+  - heading "Perfis" [level=3]
+  - link "Instagram":
+    - /url: /goto?url=CAESYQHrOzAVgJfTc_SEClFi6hEyjRErAyU1Bea2r3rLbTwYhrfvBfH9qWmCx_lnLdrtW7AYvcYqTWUCco2KlMwvC7uyvcOq0o0wluZ9kt1HlJKHiktqr_oEw50thR1vWUOdFHY
+    - generic: Instagram
+  - separator
+  - heading "De BARBER CHEFF" [level=3]
+  - button "Denunciar descrição":
+  - generic: "\"CORTE QUANTAS VEZES QUISER E PAGUE SOMENTE 75,90 POR MÊS . Entre no site e conheça nossos planos !\""
+  - link "Barber Cheff (@barberchef01) • Instagram photos and videos Instagram https://www.instagram.com › barberchef01":
+    - /url: /goto?url=CAESYgHrOzAVKMBlN2KlBZUTROWgeNFyl5osTWcrUg9G6MHbiWowyUNJO2w9DGIac83lgJsCUBncMMwTIgcevCUujYi43CCQ8HyhxajBO4hTDDEa9ai-jVtX9DucCptKVhPDzaM1
+    - heading "Barber Cheff (@barberchef01) • Instagram photos and videos" [level=3]
+    - generic: Instagram
+    - generic: https://www.instagram.com › barberchef01
+  - button "Sobre este resultado":
+  - text: Cortes clássicos e modernos | Barba na régua. Agende seu horário pelo link anexado abaixo
+  - emphasis: Av. Visconde de Itaúna 508, Jardim Primavera
+  - text: .
+  - generic: "Não inclui: Duque ‎Caxias"
+  - link "Photo by Barber Cheff (@barberchef01) Instagram https://www.instagram.com › ...":
+    - /url: /goto?url=CAESYwHrOzAVsONHcGJOoOA77-Z9a_EndkD08x_PQQ90a2T-Mj9Ppc2LvYtm9FFIGx8vPOhfXJqCDp9jd6MMyD3cb1UN4qiy2xJpNgUNjBzPl6XA2odkCUBeSiKL1zqX31FPkVS9fA
+    - heading "Photo by Barber Cheff (@barberchef01)" [level=3]
+    - generic: Instagram
+    - generic: https://www.instagram.com › ...
+  - button "Sobre este resultado":
+  - generic: 28 de set. de 2018 —
+  - text: ✂️ Corte em dia sem pesar no bolso! Por apenas R$ 75,90 por mês, você pode cortar quantas vezes quiser na
+  - emphasis: Barber Chef
+  - text: . Fez a assinatura, tá ...
+  - link "Photo by Barber Cheff (@barberchef01) · January 25, 2016 Instagram https://www.instagram.com › ...":
+    - /url: /goto?url=CAESYwHrOzAV57TvE3ZR5OOSMQHtLfMNwswf9RFr1KdfErDbm1XqWUeeKsY5dxLpMP5G2H5aJsWMMc0T90weI1AiQlHj6bOhkwzNC44gcejI43bttyTcl-3pOk8RANogoEg58fG8bQ
+    - heading "Photo by Barber Cheff (@barberchef01) · January 25, 2016" [level=3]
+    - generic: Instagram
+    - generic: https://www.instagram.com › ...
+  - button "Sobre este resultado":
+  - generic: 24 de jan. de 2016 —
+  - text: ✂️ Corte em dia sem pesar no bolso! Por apenas R$ 75,90 por mês, você pode cortar quantas vezes quiser na
+  - emphasis: Barber Chef
+  - text: . Fez a assinatura, tá ...
+  - link "Barbearia perto de você em Duque de Caxias (12) Booksy https://booksy.com › Homepage › Barbearias":
+    - /url: /goto?url=CAESdwHrOzAVW64zmSfULkUxe-vpiPPt2po_hipMuAow9kygquyden8bXXMX14AbT42Mhpl15FRf0DmMMTn9LEW6w6ukbnEyz3wEwdZ90vpX-Y1VhkIwdScltFzStLze5FqkiF-PVAzoIaWQcdQtqIt6O2v_CoigqZ5Y
+    - heading "Barbearia perto de você em Duque de Caxias (12)" [level=3]
+    - generic: Booksy
+    - generic: https://booksy.com › Homepage › Barbearias
+  - button "Sobre este resultado":
+  - text: Barbearia perto de você em
+  - emphasis: Duque de Caxias
+  - text: (12) ; Salão & Barbearia Julio Dúú corte. 1,4 km • Rua Baltazar Silveira, 107, 25080-260,
+  - emphasis: Duque de Caxias
+  - text: · Corte.
+  - text: "Não inclui: CHEFF ‎| Precisa incluir:"
+  - link "CHEFF":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=BARBER+%22CHEFF%22+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ5t4CegQIOxAB
+  - link "Barbearias / Barbeiros em Duque de Caxias, RJ Achei o Profissional https://acheioprofissional.com.br › Barbeiro":
+    - /url: /goto?url=CAESdQHrOzAVflSdwRHGMKgFx6-hHDU6pYCrHBLOK9K_kNzLL9Nk0O85qLRG6UoOW5vfKUAb3QjyS9VmCGHofOlxwcfv543HUnAJuaxZJmsah1YELIN4QUPaJDFH9vtwn8rD7zzEK7ONAXg_neSS718JQyUxAs0dZA
+    - heading "Barbearias / Barbeiros em Duque de Caxias, RJ" [level=3]
+    - generic: Achei o Profissional
+    - generic: https://acheioprofissional.com.br › Barbeiro
+  - button "Sobre este resultado":
+  - text: Os principais serviços oferecidos por barbeiro em
+  - emphasis: Duque de Caxias
+  - text: "incluem: Corte de cabelo masculino; Aparar e modelar barba; Degradê e fade; Corte navalhado ..."
+  - link "A barbearia mais completa de Duque de Caxias Instagram · felixjunio Mais de 30 marcações \"Gostei\" · há 1 ano":
+    - /url: /goto?url=CAESZgHrOzAVcj6WGVqKmrWzd4j-eDJ0zGPHR_bvHoUQoxy77WPSVdsd6eGAoMXbbVo3hVPItcOkIIKFlDi7DRLeo1teM_BK5CTbklGvc8L1AAZrDmJ918DkCaOMw9yY3Xsf7sCf1H0xDQ
+    - heading "A barbearia mais completa de Duque de Caxias" [level=3]
+    - generic: Instagram · felixjunio
+    - generic: Mais de 30 marcações "Gostei" · há 1 ano
+  - button "Sobre este resultado":
+  - link "A barbearia mais completa de Duque de Caxias enviado por Felix Moço 📏💈🇧🇷 em Instagram. Assistir em Instagram. 0:28":
+    - /url: /goto?url=CAESZgHrOzAVcj6WGVqKmrWzd4j-eDJ0zGPHR_bvHoUQoxy77WPSVdsd6eGAoMXbbVo3hVPItcOkIIKFlDi7DRLeo1teM_BK5CTbklGvc8L1AAZrDmJ918DkCaOMw9yY3Xsf7sCf1H0xDQ
+    - generic: 0:28
+  - generic: "A barbearia mais completa de Duque de Caxias: : : : : : : : #barbearia #barbershop #barba #barber #barbados #barbeiro #barberlife # ..."
+  - link "Qzone Studio - Barbearia em Duque de Caxias/RJ AppBarber https://sites.appbarber.com.br › ...":
+    - /url: /goto?url=CAESagHrOzAVVIo6CT8m0pqqd36dxBlWATJeg6LwDuL8WE_GzKSpJ9d_o9Sx3PKnuaU5yLapzyRbtSYvGZNADxrCO2uqjp1edpZpqM1urRirYQAVmviykx3ivVbETJ-S1EJqQW31JT8T8Lyd5-c
+    - heading "Qzone Studio - Barbearia em Duque de Caxias/RJ" [level=3]
+    - generic: AppBarber
+    - generic: https://sites.appbarber.com.br › ...
+  - button "Sobre este resultado":
+  - emphasis: Avenida Presidente Roosevelt , 0130 - 25212390 Jardim Rosário - Duque de Caxias/RJ
+  - text: . Horário de atendimento. Domingo. 09:00 - 12:00. 13:00 - 13:10. Segunda-Feira.
+  - text: "Não inclui: CHEFF ‎| Precisa incluir:"
+  - link "CHEFF":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=BARBER+%22CHEFF%22+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ5t4CegQIeBAB
+  - link "Barber Pub RDWC | Duque de Caxias RJ Facebook · Barber Pub RDWC Mais de 2,3 mil seguidores":
+    - /url: /goto?url=CAESYgHrOzAVm7kAVqJsmmxvYFyLiyT31d19FpeZamU88zXd1DlakVNuyQkUNBWluwdUWjxofdbB1azOwsc6S2wOuKGFVMAWsRE43qcxVALZAFTDNy2iTtmA3eCo9eJ53i1Z9RrL
+    - heading "Barber Pub RDWC | Duque de Caxias RJ" [level=3]
+    - generic: Facebook · Barber Pub RDWC
+    - generic: Mais de 2,3 mil seguidores
+  - button "Sobre este resultado":
+  - emphasis: Barber Pub RDWC, Duque de Caxias
+  - text: . 2317 likes · 2962 were here. Todo ... Rua Urbano Duarte, 270 Loja B, Duque de Caxias, RJ, Brazil, 25042-300. Links.
+  - 'img "Avaliação: 5,0 de 5, (44) avaliações de usuários"':
+    - text: 5,0
+    - text: (44)
+  - text: "Não inclui: CHEFF ‎| Precisa incluir:"
+  - link "CHEFF":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=BARBER+%22CHEFF%22+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ5t4CegQIdBAB
+  - link "Fagundes Barbershop - Duque de Caxias Booksy https://booksy.com › ... › Barbearias Duque de Caxias":
+    - /url: /goto?url=CAESkAEB6zswFXlyZtL5dPADTFMi_l4g72FD3-CRe1cHbV-Dw0TVKnGMHNVwkDQMk79OWphMjVY4y3qPEM2YuzA_Z0sQD5K1Uunp_vROJjElFIoZPvQ144ODAfpSSVBGJGhB_d71ww2SR-WIcC6xR3S3XMXx-L4pw5pJ3xQs5M6CmVbmiBw8qMWHRcBSSKWzKFOG2JM
+    - heading "Fagundes Barbershop - Duque de Caxias" [level=3]
+    - generic: Booksy
+    - generic: https://booksy.com › ... › Barbearias Duque de Caxias
+  - button "Sobre este resultado":
+  - emphasis: Serviços
+  - text: · Barba. R$ 20,0020min. Reservar · Corte. Portfólio de Corte. R$ 35,0040min · Sobrancelha. R$ 10,005min. Reservar · Corte + Barba. R$ 55,001h. Reservar.
+  - 'img "Avaliação: 5,0 de 5, (11) avaliações de usuários"':
+    - text: 5,0
+    - text: (11)
+  - text: ·
+  - text: "Faixa de preço: BRL 10 - 75"
+  - text: "Não inclui: CHEFF ‎| Precisa incluir:"
+  - link "CHEFF":
+    - /url: /search?sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&q=BARBER+%22CHEFF%22+Duque+de+Caxias&sa=X&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ5t4CegQIbBAB
+  - link "Barbearia e cosméticos masculinos (@chefsbarber_) Instagram · chefsbarber_ Mais de 2,3 mil seguidores":
+    - /url: /goto?url=CAESYgHrOzAV8b8HEmIh3LpUwxkhf-inJQd6aqPQOAlrm5PkyBQFAAfoBwgqpb6jmnjT5IJpv2S0LpKzxZXaq3O8A-nm8htm1ys_Rdw6BiqND7t7trBDvo1UvdY7E03gEJZfdgov
+    - heading "Barbearia e cosméticos masculinos (@chefsbarber_)" [level=3]
+    - generic: Instagram · chefsbarber_
+    - generic: Mais de 2,3 mil seguidores
+  - button "Sobre este resultado":
+  - text: Aqui, você não vem apenas cortar o cabelo. Você vive a experiência Chef's
+  - emphasis: Barber
+  - text: . Atendimento, cuidado e qualidade em cada detalhe. Agende seu horário! ...
+  - navigation:
+    - heading "Navegação nas páginas" [level=1]
+    - text: "1"
+    - link "Page 2":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=10&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAE
+      - text: "2"
+    - link "Page 3":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=20&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAG
+      - text: "3"
+    - link "Page 4":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=30&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAI
+      - text: "4"
+    - link "Page 5":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=40&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAK
+      - text: "5"
+    - link "Page 6":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=50&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAM
+      - text: "6"
+    - link "Page 7":
+      - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=60&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8tMDegQIfBAO
+      - text: "7"
+    - heading "Mais" [level=2]:
+      - link "Mais":
+        - /url: /search?q=BARBER+CHEFF&sca_esv=6fa6992d3676efb6&cs=0&sxsrf=APpeQns5yGhMUdk9pchuNaNeWOoQkUgdSg:1791335988712&ei=NJ7FatbqKbGj1sQPr6HZgQk&kgmid=/g/11zdgzwf1d&start=10&sa=N&sstk=AS6-VmIGXxkxhSobDENNKR8qq43otra4Ub8sUR8-owdS61DH7E1Xx_u-TgVEQm3Vq7mcfdH5slRi-hq0noxn_zc71YqAFzv5sSOGMw&ved=2ahUKEwjW1J3K3qaXAxWxkZUCHa9QNpAQ8NMDegQIfBAQ
+        - generic: Mais
+  - navigation
+- contentinfo:
+  - heading "Links do rodapé" [level=1]
+  - text: Brasil
+  - button "25214 - Jardim Primavera, Duque de Caxias - RJ - Do seu endereço IP":
+    - generic: 25214 - Jardim Primavera, Duque de Caxias - RJ
+    - text: "-"
+    - generic: Do seu endereço IP
+  - text: "-"
+  - button "Atualizar local": Atualizar local
+  - link "Ajuda":
+    - /url: https://support.google.com/websearch/?p=ws_results_help&hl=pt-BR&fg=1
+  - link "Enviar feedback":
+    - /url: "#"
+  - link "Privacidade":
+    - /url: https://policies.google.com/privacy?hl=pt-BR&fg=1
+  - link "Termos":
+    - /url: https://policies.google.com/terms?hl=pt-BR&fg=1

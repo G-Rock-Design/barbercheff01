@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Clube Barba Ilimitada",
+    "mensalidade_brl": 59.9,
+    "item_coberto": "CLUBE BARBA ILIMITADO",
+    "duracao_agenda_min": 30,
+    "uso": "Ilimitado",
+    "dias": "Todos os dias de funcionamento",
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06",
+    "regras_contratuais_completas_verificadas": false
+  },
+  {
+    "nome": "Clube Corte Ilimitado",
+    "mensalidade_brl": 75.9,
+    "item_coberto": "CLUBE CABELO ILIMITADO",
+    "duracao_agenda_min": 30,
+    "uso": "Ilimitado",
+    "dias": "Todos os dias de funcionamento",
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06",
+    "regras_contratuais_completas_verificadas": false
+  },
+  {
+    "nome": "Clube Corte + Barba Ilimitado",
+    "mensalidade_brl": 129.9,
+    "item_coberto": "CLUBE CABELO + BARBA ILIMITADO",
+    "duracao_agenda_min": 60,
+    "uso": "Ilimitado",
+    "dias": "Todos os dias de funcionamento",
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06",
+    "regras_contratuais_completas_verificadas": false
+  }
+]

@@ -1,0 +1,225 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fgbcorte.021%2Freel%2FDbG9slTzXOC%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - dialog:
+    - button "Fechar":
+      - img "Fechar"
+    - link "Foto do perfil de gbcorte.021":
+      - img "Foto do perfil de gbcorte.021"
+    - generic: Não perca nenhum post de gbcorte.021
+    - generic: Cadastre-se no Instagram para ficar por dentro das novidades.
+    - text: Ao continuar, você concorda com os
+    - link "Termos de Uso":
+      - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+    - text: e a
+    - link "Política de Privacidade":
+      - /url: https://privacycenter.instagram.com/policy/
+    - text: do Instagram.
+    - link "Cadastre-se":
+      - /url: /accounts/emailsignup/
+    - link "Entrar":
+      - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+  - img "Video by @gbcorte.021 on July 22, 2026. Pode ser um meme de uma ou mais pessoas e pelo."
+  - link "Foto do perfil de barberchef01":
+    - img "Foto do perfil de barberchef01"
+  - link "Foto do perfil de gbcorte.021":
+    - img "Foto do perfil de gbcorte.021"
+  - link "gbcorte.021":
+    - /url: /gbcorte.021/
+    - generic: gbcorte.021
+  - text: e
+  - link "outros 2":
+    - /url: "#"
+  - link "Mc Negão Original, MC Meno K, DJ Japa NK • Comedinha Ficou Bravo 2":
+    - /url: /reels/audio/1680765133064780/
+    - text: Mc Negão Original, MC Meno K, DJ Japa NK
+    - generic: •
+    - text: Comedinha Ficou Bravo 2
+  - button "Mais opções":
+    - img "Mais opções"
+  - separator
+  - link "Foto do perfil de gbcorte.021":
+    - /url: /gbcorte.021/
+    - img "Foto do perfil de gbcorte.021"
+  - link "gbcorte.021":
+    - /url: /gbcorte.021/
+    - generic: gbcorte.021
+  - time: 10 sem
+  - text: vantagens de ser barbeiro 🤣🤣
+  - link "#memeshumor":
+    - /url: /explore/tags/memeshumor/
+  - link "#cortedisfarçado":
+    - /url: /explore/tags/cortedisfar%C3%A7ado/
+  - link "#viralreels":
+    - /url: /explore/tags/viralreels/
+  - button "Carregar mais comentários":
+    - img "Carregar mais comentários"
+  - link "Foto do perfil de mjustrs":
+    - /url: /mjustrs/
+    - img "Foto do perfil de mjustrs"
+  - link "mjustrs":
+    - /url: /mjustrs/
+    - generic: mjustrs
+  - link "10 sem":
+    - /url: /p/DbG9slTzXOC/c/18065926838550764/
+    - time: 10 sem
+  - generic: Vlw 😂❤️
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de marcelo_mt02":
+    - /url: /marcelo_mt02/
+    - img "Foto do perfil de marcelo_mt02"
+  - link "marcelo_mt02":
+    - /url: /marcelo_mt02/
+    - generic: marcelo_mt02
+  - link "10 sem":
+    - /url: /p/DbG9slTzXOC/c/17965671261136883/
+    - time: 10 sem
+  - generic: 🔥👏
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de marynepomucenooo":
+    - /url: /marynepomucenooo/
+    - img "Foto do perfil de marynepomucenooo"
+  - link "marynepomucenooo":
+    - /url: /marynepomucenooo/
+    - generic: marynepomucenooo
+  - link "10 sem":
+    - /url: /p/DbG9slTzXOC/c/17911845018431707/
+    - time: 10 sem
+  - generic: Meu neném 😍
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - button "Curtir":
+    - img "Curtir"
+  - button "58"
+  - button "Comentar":
+    - img "Comentar"
+  - button "5"
+  - button "Compartilhar":
+    - img "Compartilhar"
+  - button "Salvar":
+    - img "Salvar"
+  - link "22 de julho":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - time: 22 de julho
+  - link "Entrar":
+    - /url: /accounts/login/?next=%2Fgbcorte.021%2Freel%2FDbG9slTzXOC%2F&source=post_comment_input
+  - text: para curtir ou comentar.
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta

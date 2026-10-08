@@ -1,0 +1,63 @@
+{
+  "nome": "Barber Cheff",
+  "nome_google": "BARBER CHEFF",
+  "coleta": "2026-10-06",
+  "timezone": "America/Sao_Paulo",
+  "endereco": {
+    "logradouro": "Avenida Visconde de Itaúna",
+    "numero": "508",
+    "bairro": "Jardim Primavera",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "cep": "25214-415",
+    "fontes": [
+      "https://sites.appbarber.com.br/barbercheff-jmf9",
+      "https://share.google/n92P3dzJ9hc59dIuB",
+      "https://linktr.ee/BarberCheff"
+    ]
+  },
+  "telefone": "+5521976985317",
+  "whatsapp": "https://wa.me/5521976985317",
+  "instagram": "https://www.instagram.com/barberchef01/",
+  "agendamento": "https://sites.appbarber.com.br/barbercheff-jmf9",
+  "linktree": "https://linktr.ee/BarberCheff",
+  "google": "https://share.google/n92P3dzJ9hc59dIuB",
+  "google_knowledge_id": "/g/11zdgzwf1d",
+  "rota": "https://www.google.com/maps/search/?api=1&query=-22.68759727%2C-43.2604332",
+  "equipe": [
+    "Daniel",
+    "Gabriel",
+    "Luiz",
+    "Thiago"
+  ],
+  "comodidades_declaradas": [
+    "Wi-Fi",
+    "Estacionamento",
+    "Acessibilidade",
+    "Atende crianças"
+  ],
+  "pagamentos_declarados": [
+    "Dinheiro",
+    "Cartão de Crédito",
+    "Cartão de Débito",
+    "PIX"
+  ],
+  "instagram_contagens": {
+    "seguidores": 1402,
+    "seguindo": 665
+  },
+  "reputacao": {
+    "appbarber": {
+      "nota_exibida": 5,
+      "registros_visiveis": 3,
+      "comentarios_textuais_visiveis": 1
+    },
+    "google": {
+      "estado": "Convite à primeira avaliação; nota não exibida"
+    }
+  },
+  "cnpj": null,
+  "email": null,
+  "data_fundacao": null,
+  "manual_oficial_encontrado": false
+}

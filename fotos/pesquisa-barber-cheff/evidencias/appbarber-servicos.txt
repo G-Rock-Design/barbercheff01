@@ -1,0 +1,245 @@
+- main:
+  - button "Logo":
+    - img "Logo"
+  - button "Início"
+  - button "Buscar"
+  - button "Meus Agendamentos"
+  - button:
+  - img "Português - Brasil"
+  - paragraph: BR
+  - img "avatar":
+  - heading "Entrar" [level=1]
+  - img "Barber Cheff"
+  - heading "Barber Cheff" [level=1]
+  - paragraph: "5.0"
+  - button:
+  - button "Agendar agora"
+  - region:
+    - region:
+      - img "Imagem do estabelecimento 1":
+        - img "Imagem do estabelecimento 1"
+      - img "Imagem do estabelecimento 2":
+        - img "Imagem do estabelecimento 2"
+    - button:
+    - button:
+    - button
+    - button
+  - button "Serviços"
+  - button "Profissionais"
+  - button "Fidelidade"
+  - button "Produtos"
+  - button "Pacotes"
+  - button "Assinaturas"
+  - button "Avaliações"
+  - paragraph: Corte quantas vezes quiser e pague apenas 75,90 por mês ! ASSINE JÁ O CLUBE VOCÊ TAMBÉM
+  - heading "Comodidades" [level=1]
+  - heading "Clique no item para obter informações" [level=2]
+  - paragraph: Wi-fi
+  - paragraph: Estacionamento
+  - paragraph: Acessibilidade
+  - paragraph: Atende crianças
+  - heading "Serviços" [level=2]
+  - searchbox "Pesquisar"
+  - heading "Categorias" [level=3]
+  - paragraph: SERVIÇOS EXTRAS
+  - generic: Ordenar por
+  - button "Ordenar por Nome":
+    - text: Nome
+  - button "Ordenar por Valor":
+    - text: Valor
+  - img "Barba"
+  - paragraph: Barba
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Cera Nariz"
+  - paragraph: Cera Nariz
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Cera Orelha"
+  - paragraph: Cera Orelha
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "CLUBE BARBA ILIMITADO"
+  - paragraph: CLUBE BARBA ILIMITADO
+  - button "Plano disponível para contratação":
+    - generic: Plano disponível para contratação
+  - paragraph
+  - paragraph: R$ 59,90
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "CLUBE CABELO + BARBA ILIMITADO"
+  - paragraph: CLUBE CABELO + BARBA ILIMITADO
+  - button "Plano disponível para contratação":
+    - generic: Plano disponível para contratação
+  - paragraph
+  - paragraph: R$ 129,90
+  - paragraph: 60 min
+  - button "Agendar"
+  - img "CLUBE CABELO ILIMITADO"
+  - paragraph: CLUBE CABELO ILIMITADO
+  - button "Plano disponível para contratação":
+    - generic: Plano disponível para contratação
+  - paragraph
+  - paragraph: R$ 75,90
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Corte"
+  - paragraph: Corte
+  - paragraph
+  - paragraph: R$ 40,00
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Corte + Barba"
+  - paragraph: Corte + Barba
+  - paragraph
+  - paragraph: R$ 70,00
+  - paragraph: 60 min
+  - button "Agendar"
+  - img "Corte Tesoura"
+  - paragraph: Corte Tesoura
+  - paragraph
+  - paragraph: R$ 50,00
+  - paragraph: 60 min
+  - button "Agendar"
+  - img "Nevou"
+  - paragraph: Nevou
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Pé do Cabelo"
+  - paragraph: Pé do Cabelo
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Raspagem Cabeça Inteira maq ou navalha"
+  - paragraph: Raspagem Cabeça Inteira maq ou navalha
+  - paragraph
+  - paragraph: R$ 30,00
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Reflexo"
+  - paragraph: Reflexo
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Sobrancelha"
+  - paragraph: Sobrancelha
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Tintura Barba"
+  - paragraph: Tintura Barba
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - img "Tintura Cabelo"
+  - paragraph: Tintura Cabelo
+  - paragraph
+  - paragraph: R$ Consultar
+  - paragraph: 30 min
+  - button "Agendar"
+  - heading "Localização" [level=2]
+  - paragraph: Avenida Visconde de Itaúna , 508 - 25214-415 Jardim Primavera - Duque de Caxias/RJ
+  - link:
+    - /url: https://www.google.com/maps/search/?api=1&query=-22.68759727%2C-43.2604332
+  - heading "Horário de atendimento" [level=2]
+  - list:
+    - paragraph: Domingo
+    - paragraph: 09:00 - 14:10
+    - paragraph: 14:20 - 14:30
+    - paragraph: Segunda-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Terça-Feira
+    - generic: Hoje
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quarta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quinta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sexta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sábado
+    - paragraph: 08:00 - 12:00
+    - paragraph: 13:00 - 20:00
+  - heading "Formas de pagamento" [level=2]
+  - paragraph: Dinheiro
+  - paragraph: Cartão de Crédito
+  - paragraph: Cartão de Débito
+  - paragraph: PIX
+  - heading "Redes Sociais" [level=2]
+  - button "(21) 97698-5317":
+  - button "@barberchef01":
+  - heading "Contato" [level=2]
+  - generic "Clique para copiar":
+    - paragraph: (21) 97698-5317
+  - generic "Clique para copiar":
+    - paragraph: (21) 97698-5317
+  - contentinfo:
+    - img "Logo barber"
+    - paragraph:
+      - text: Uma nova experiência
+      - text: para uma antiga tradição.
+    - list "Links das redes sociais":
+      - link "Seguir no Facebook":
+        - /url: https://www.facebook.com/appbarbersistema
+        - button:
+      - link "Seguir no Instagram":
+        - /url: https://www.instagram.com/appbarber
+        - button:
+      - link "Seguir no YouTube":
+        - /url: https://www.youtube.com/channel/UCADBWn80DAFUfAy2k4lwtNQ
+        - button:
+      - link "Seguir no X (Twitter)":
+        - /url: https://twitter.com/AppBarber
+        - button:
+    - navigation "Links de navegação principal":
+      - heading "Acesso rápido" [level=3]
+      - list:
+        - link "Início":
+          - /url: /
+        - link "Encontrar estabelecimentos":
+          - /url: /buscar
+        - link "Meus agendamentos":
+          - /url: /agendamentos
+        - link "Favoritos":
+          - /url: /favoritos
+    - navigation "Links adicionais":
+      - heading "Mais" [level=3]
+      - list:
+        - link "Termos de uso":
+          - /url: https://appbarber.com.br/termodeuso-cliente/
+        - button "Preferências de cookies"
+    - region "Download do aplicativo":
+      - heading "Baixe nosso App" [level=3]
+      - link "Baixar na App Store":
+        - /url: https://apps.apple.com/br/app/appbarber-cliente/id6450795073
+        - button "Baixar na App Store":
+          - text: App Store
+      - link "Baixar no Google Play":
+        - /url: https://play.google.com/store/apps/details?id=br.com.starapp.appbarbercli
+        - button "Baixar no Google Play":
+          - text: Google Play
+    - heading "É um gestor?" [level=3]
+    - paragraph: Cadastre seu estabelecimento e comece a receber agendamentos online.
+    - link "Saiba mais":
+      - /url: https://appbarber.com.br
+      - button "Saiba mais"
+    - paragraph: © 2026 StarApp Sistemas. Todos os direitos reservados.
+    - button "Voltar ao topo da página":
+- alert

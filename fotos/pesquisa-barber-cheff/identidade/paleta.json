@@ -1,0 +1,42 @@
+{
+  "oficial": false,
+  "coleta": "2026-10-06",
+  "metodo": "Ver relatório de identidade visual. Amarelo amostrado na campanha; demais cores normalizadas ou aproximadas.",
+  "cores": [
+    {
+      "nome": "Amarelo de campanha",
+      "hex": "#FFC603",
+      "status": "Amostra recorrente da arte; não oficial"
+    },
+    {
+      "nome": "Preto",
+      "hex": "#000000",
+      "status": "Normalização visual"
+    },
+    {
+      "nome": "Grafite",
+      "hex": "#202020",
+      "status": "Aproximação visual"
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "status": "Normalização visual"
+    },
+    {
+      "nome": "Marfim metálico",
+      "hex": "#E5E3D4",
+      "status": "Aproximação visual do logo"
+    },
+    {
+      "nome": "Cinza aço",
+      "hex": "#92938E",
+      "status": "Aproximação visual do logo"
+    },
+    {
+      "nome": "Vermelho de detalhe",
+      "hex": "#C82046",
+      "status": "Aproximação visual do logo"
+    }
+  ]
+}

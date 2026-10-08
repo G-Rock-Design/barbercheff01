@@ -1,0 +1,106 @@
+[
+  {
+    "nome": "Barba",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Cera Nariz",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Cera Orelha",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Corte",
+    "preco_brl": 40,
+    "preco_status": "publicado",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Corte + Barba",
+    "preco_brl": 70,
+    "preco_status": "publicado",
+    "duracao_min": 60,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Corte Tesoura",
+    "preco_brl": 50,
+    "preco_status": "publicado",
+    "duracao_min": 60,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Nevou",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Pé do Cabelo",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Raspagem Cabeça Inteira maq ou navalha",
+    "preco_brl": 30,
+    "preco_status": "publicado",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Reflexo",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Sobrancelha",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Tintura Barba",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  },
+  {
+    "nome": "Tintura Cabelo",
+    "preco_brl": null,
+    "preco_status": "consultar",
+    "duracao_min": 30,
+    "fonte": "https://sites.appbarber.com.br/barbercheff-jmf9",
+    "coleta": "2026-10-06"
+  }
+]

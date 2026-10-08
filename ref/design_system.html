@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Maestro & Anderson Nogueira - Design System</title>
+    
+    <!-- Fonts from the Reference Sites -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ==========================================================================
+           CSS VARIABLES (DESIGN TOKENS)
+           ========================================================================== */
+        :root {
+            /* Typography */
+            --font-primary: 'Lexend Deca', sans-serif;
+            --font-secondary: 'Roboto Slab', serif;
+            --font-body: 'Roboto', sans-serif;
+            
+            /* Colors */
+            --color-white: #ffffff;
+            --color-black: #050505;
+            --color-accent: #c5a059; /* Dourado Anderson / Maestro */
+            --color-accent-hover: #a68444;
+            --color-bg-light: #f9f9fa;
+            --color-border: rgba(0,0,0,0.08);
+            --color-text-main: #333333;
+            --color-text-muted: #666666;
+            
+            /* Gradients */
+            --gradient-accent: linear-gradient(135deg, #c5a059 0%, #e8c783 100%);
+            --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 100%);
+            
+            /* Shadows & Glows */
+            --shadow-sm: 0 4px 15px rgba(0,0,0,0.03);
+            --shadow-md: 0 10px 30px rgba(0,0,0,0.08);
+            --shadow-lg: 0 20px 40px rgba(0,0,0,0.12);
+            --glow-accent: 0 0 20px rgba(197, 160, 89, 0.4);
+            
+            /* Transitions */
+            --trans-fast: 0.2s ease-in-out;
+            --trans-normal: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --trans-slow: 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        /* ==========================================================================
+           RESET & BASE
+           ========================================================================== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body {
+            font-family: var(--font-body);
+            background-color: var(--color-white);
+            color: var(--color-text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ==========================================================================
+           ANIMATIONS (Reused throughout)
+           ========================================================================== */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        @keyframes bgMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes pulseGlow {
+            0% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(197, 160, 89, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0); }
+        }
+        @keyframes slideInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Scroll Transitions */
+        .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: all var(--trans-slow); }
+        .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+        .delay-1 { transition-delay: 0.1s; }
+        .delay-2 { transition-delay: 0.2s; }
+        .delay-3 { transition-delay: 0.3s; }
+
+        .animated-bg {
+            background: linear-gradient(-45deg, #ffffff, #f4f6f9, #ffffff, #faf7f2);
+            background-size: 400% 400%;
+            animation: bgMove 15s ease infinite;
+        }
+
+        /* ==========================================================================
+           TYPOGRAPHY & LETTERING (Don Maestro Signature)
+           ========================================================================== */
+        .transparent-lettering {
+            font-size: clamp(4rem, 10vw, 10rem);
+            font-family: var(--font-primary);
+            font-weight: 900;
+            color: transparent;
+            -webkit-text-stroke: 2px rgba(0, 0, 0, 0.15);
+            text-transform: uppercase;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+            letter-spacing: -3px;
+        }
+        .transparent-lettering::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            color: var(--color-black);
+            -webkit-text-stroke: 0px transparent;
+            overflow: hidden;
+            transition: width 1.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            white-space: nowrap;
+        }
+        .transparent-lettering:hover::before, .transparent-lettering.animate-fill::before {
+            width: 100%;
+        }
+
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-primary); color: var(--color-black); }
+        .elementor-heading-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 15px; letter-spacing: -1px; }
+        
+        .section-header { text-align: center; margin-bottom: 70px; }
+        .ds-badge { display: inline-block; padding: 6px 16px; background: rgba(197, 160, 89, 0.15); color: var(--color-accent); border-radius: 50px; font-weight: 700; font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 15px; text-transform: uppercase; border: 1px solid rgba(197, 160, 89, 0.3); }
+        
+        /* ==========================================================================
+           LAYOUT & SECTIONS
+           ========================================================================== */
+        .ds-navbar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(5, 5, 5, 0.95);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            transition: var(--trans-fast);
+        }
+        .ds-navbar .logo { font-family: var(--font-primary); font-weight: 900; font-size: 1.5rem; letter-spacing: -1px; text-transform: uppercase; color: var(--color-white); }
+        .ds-navbar .logo span { color: var(--color-accent); font-weight: 300; }
+        .ds-navbar .links a { text-decoration: none; color: var(--color-accent); margin-left: 35px; font-weight: 500; font-size: 0.95rem; transition: var(--trans-fast); }
+        .ds-navbar .links a:hover { color: var(--color-white); }
+
+        .ds-hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+        .ds-hero-content { position: relative; z-index: 10; max-width: 900px; padding: 0 20px; }
+        .hero-subtitle { font-family: var(--font-secondary); font-size: 1.8rem; font-weight: 300; margin-top: -10px; margin-bottom: 25px; color: var(--color-text-muted); }
+        .hero-description { font-size: 1.2rem; margin-bottom: 45px; color: var(--color-text-muted); line-height: 1.8; }
+        
+        .glow-orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.3; z-index: 0; animation: float 8s ease-in-out infinite; }
+        .orb-1 { width: 500px; height: 500px; background: var(--color-accent); top: -150px; right: -150px; }
+        .orb-2 { width: 400px; height: 400px; background: #cce0ff; bottom: -100px; left: -100px; animation-delay: -4s; }
+
+        .ds-section { padding: 120px 0; border-bottom: 1px solid var(--color-border); position: relative; }
+        .elementor-section { background-color: var(--color-bg-light); }
+
+        /* ==========================================================================
+           UI COMPONENTS SPECIFICATIONS
+           ========================================================================== */
+        /* Cards */
+        .ds-card { background: var(--color-white); border-radius: 24px; padding: 50px; box-shadow: var(--shadow-md); border: 1px solid rgba(0,0,0,0.03); transition: var(--trans-normal); }
+        .ds-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+        .glassmorphism { background: var(--gradient-glass); backdrop-filter: blur(25px); border: 1px solid rgba(255,255,255,0.8); box-shadow: 0 8px 32px rgba(0,0,0,0.05); }
+
+        /* Buttons (elementor-button style mapping) */
+        .elementor-button {
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 16px 40px; border-radius: 50px; font-family: var(--font-primary); font-weight: 700; font-size: 0.95rem; text-decoration: none; cursor: pointer; transition: var(--trans-normal); border: 2px solid transparent; text-transform: uppercase; letter-spacing: 1px; position: relative; overflow: hidden;
+        }
+        .btn-primary { background: var(--color-black); color: var(--color-white); }
+        .btn-primary:hover { background: var(--color-accent); color: var(--color-white); box-shadow: var(--shadow-md); transform: translateY(-4px); }
+        .btn-accent { background: var(--gradient-accent); color: var(--color-white); }
+        .btn-accent:hover { box-shadow: var(--glow-accent); transform: translateY(-4px); }
+        .btn-outline { background: transparent; border-color: var(--color-black); color: var(--color-black); }
+        .btn-outline:hover { background: var(--color-black); color: var(--color-white); transform: translateY(-4px); }
+        .pulse-btn { animation: pulseGlow 2.5s infinite; }
+        
+        .elementor-button i { margin-left: 10px; transition: transform var(--trans-fast); }
+        .elementor-button:hover i { transform: translateX(6px); }
+
+        /* Inputs */
+        .ds-input-group { margin-bottom: 25px; position: relative; text-align: left; width: 100%; }
+        .ds-label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; color: var(--color-black); font-family: var(--font-primary); }
+        .ds-input {
+            width: 100%; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-bg-light); font-family: var(--font-body); font-size: 1rem; color: var(--color-text-main); transition: var(--trans-fast); outline: none;
+        }
+        .ds-input:focus { border-color: var(--color-accent); background: var(--color-white); box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.15); }
+
+        /* Typography Grid */
+        .type-spec { display: grid; grid-template-columns: 200px 1fr; gap: 20px; align-items: center; border-bottom: 1px solid var(--color-border); padding: 35px 0; }
+        .type-spec:last-child { border-bottom: none; }
+        .type-spec .role { font-family: var(--font-secondary); font-size: 0.85rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 1px; }
+        .spec-details { margin-top: 15px; font-family: monospace; font-size: 0.85rem; color: var(--color-accent); background: rgba(197, 160, 89, 0.08); padding: 10px 15px; border-radius: 8px; display: inline-block; border: 1px solid rgba(197, 160, 89, 0.2); }
+
+        /* Colors Grid */
+        .color-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
+        .color-card { background: #fff; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--trans-normal); border: 1px solid var(--color-border); }
+        .color-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-lg); }
+        .color-swatch { height: 150px; width: 100%; display: flex; align-items: flex-end; padding: 25px; font-weight: 800; font-family: var(--font-primary); font-size: 1.3rem; }
+        .color-details { padding: 30px; font-size: 0.95rem; }
+        .color-details p { margin-bottom: 12px; display: flex; justify-content: space-between; border-bottom: 1px dashed #eee; padding-bottom: 8px; }
+        .color-details span:first-child { font-weight: 600; color: var(--color-text-muted); font-family: var(--font-primary); font-size: 0.85rem; text-transform: uppercase; }
+
+        /* Components Showcase */
+        .showcase-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .component-box { background: var(--color-bg-light); padding: 50px 40px; border-radius: 20px; border: 1px dashed #ccc; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .component-title { position: absolute; top: -14px; left: 30px; background: var(--color-white); padding: 5px 15px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; color: var(--color-accent); border: 1px solid #ccc; border-radius: 6px; font-family: var(--font-primary); }
+        
+        /* Barber Specific Cards (Anderson's 'intelligence-box' mapping) */
+        .intelligence-box {
+            background: var(--color-white); border-radius: 20px; padding: 40px 30px; text-align: center; box-shadow: var(--shadow-sm); transition: var(--trans-normal); border: 1px solid rgba(0,0,0,0.05); position: relative; overflow: hidden; width: 100%; max-width: 350px;
+        }
+        .intelligence-box::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: var(--gradient-accent); transform: scaleX(0); transition: var(--trans-normal); transform-origin: left; }
+        .intelligence-box:hover::before { transform: scaleX(1); }
+        .intelligence-box:hover { transform: translateY(-10px); box-shadow: var(--shadow-md); }
+        .intelligence-box i { font-size: 3rem; color: var(--color-accent); margin-bottom: 25px; display: inline-block; transition: var(--trans-normal); }
+        .intelligence-box:hover i { transform: scale(1.1); color: var(--color-black); }
+        .intelligence-box h4 { font-size: 1.3rem; margin-bottom: 15px; }
+        
+        /* Icons Grid */
+        .icon-grid { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+        .icon-box { width: 90px; height: 90px; background: var(--color-white); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; color: var(--color-black); box-shadow: var(--shadow-sm); transition: var(--trans-normal); border: 1px solid var(--color-border); }
+        .icon-box:hover { background: var(--gradient-accent); color: var(--color-white); transform: translateY(-10px) rotate(5deg); box-shadow: var(--shadow-md); border-color: transparent; }
+
+        /* Animations Grid */
+        .anim-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+        .anim-box { background: var(--color-white); padding: 40px 20px; border-radius: 20px; text-align: center; box-shadow: var(--shadow-sm); font-weight: 700; cursor: pointer; border: 1px solid var(--color-border); font-family: var(--font-primary); font-size: 1.1rem; transition: var(--trans-normal); }
+        .anim-box:hover.a-fade { animation: slideInUp 0.6s cubic-bezier(0.25, 0.8, 0.25, 1); }
+        .anim-box:hover.a-pulse { animation: pulseGlow 1.5s infinite; border-color: transparent; }
+        .anim-box:hover.a-float { animation: float 2s infinite; }
+        .anim-box:hover { box-shadow: var(--shadow-md); border-color: var(--color-accent); }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .showcase-grid { grid-template-columns: 1fr; }
+            .type-spec { grid-template-columns: 1fr; gap: 10px; }
+            .ds-navbar .links { display: none; }
+            .transparent-lettering { font-size: 4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="ds-navbar glassmorphism">
+        <div class="logo">Don Maestro <span>System</span></div>
+        <div class="links">
+            <a href="#typography">Tipografia</a>
+            <a href="#colors">Cores</a>
+            <a href="#components">Componentes</a>
+            <a href="#icons">Ícones</a>
+            <a href="#animations">Animações</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (PRIMEIRA DOBRA) -->
+    <header class="ds-hero animated-bg" id="hero">
+        <div class="ds-hero-content animate-on-scroll">
+            <!-- Transparent Lettering based on Don Maestro -->
+            <h1 class="transparent-lettering" data-text="DESIGN SYSTEM">DESIGN SYSTEM</h1>
+            <h2 class="hero-subtitle">A excelência do branco. A ousadia da transparência.</h2>
+            <p class="hero-description">Um ecossistema visual criativo unindo a elegância "clean" da Barbearia Don Maestro com as interações vibrantes da Barbearia Anderson Nogueira.</p>
+            <a href="#typography" class="elementor-button btn-primary pulse-btn">Explorar Componentes <i class="fas fa-arrow-down"></i></a>
+        </div>
+        <!-- Animated Background Elements -->
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </header>
+
+    <!-- 2. TIPOGRAFIA -->
+    <section class="ds-section" id="typography">
+        <div class="container animate-on-scroll">
+            <div class="section-header">
+                <span class="ds-badge">01</span>
+                <h2 class="elementor-heading-title">Tipografia Exclusiva</h2>
+                <p>Uma hierarquia clara e moderna, misturando fontes sem serifa geométricas com detalhes clássicos.</p>
+            </div>
+            
+            <div class="ds-card glassmorphism" style="margin-bottom: 50px;">
+                <h3 style="margin-bottom: 20px; font-family: var(--font-primary);">Estratégia de Carregamento</h3>
+                <ul style="list-style: none; color: var(--color-text-muted); line-height: 1.8;">
+                    <li><strong style="color:var(--color-black);">Famílias:</strong> Primary: 'Lexend Deca' | Secondary: 'Roboto Slab' | Body: 'Roboto'</li>
+                    <li><strong style="color:var(--color-black);">Fallback:</strong> sans-serif / serif / monospace</li>
+                    <li><strong style="color:var(--color-black);">Carregamento:</strong> Google Fonts CDN com <code>display=swap</code> para performance e prevenção de FOUC.</li>
+                    <li><strong style="color:var(--color-black);">Pesos:</strong> Variando de 100 (Thin) até 900 (Black) para máxima flexibilidade visual.</li>
+                </ul>
+            </div>
+
+            <div class="ds-card">
+                <!-- H1 -->
+                <div class="type-spec">
+                    <div class="role">Heading 1 (h1)</div>
+                    <div class="preview">
+                        <h1 style="font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 900; line-height: 1.1; letter-spacing: -2px; text-transform: uppercase;">A Arte do Corte</h1>
+                        <div class="spec-details">Lexend Deca | W: 900 | S: 4.5rem | LH: 1.1 | LS: -2px | Uppercase</div>
+                    </div>
+                </div>
+                <!-- H2 -->
+                <div class="type-spec">
+                    <div class="role">Heading 2 (h2)</div>
+                    <div class="preview">
+                        <h2 style="font-size: 3rem; font-weight: 800; line-height: 1.2; letter-spacing: -1px;">Estilo & Elegância</h2>
+                        <div class="spec-details">Lexend Deca | W: 800 | S: 3rem | LH: 1.2 | LS: -1px | None</div>
+                    </div>
+                </div>
+                <!-- H3 -->
+                <div class="type-spec">
+                    <div class="role">Heading 3 (h3)</div>
+                    <div class="preview">
+                        <h3 style="font-size: 2rem; font-weight: 700; line-height: 1.3;">Nossos Especialistas</h3>
+                        <div class="spec-details">Lexend Deca | W: 700 | S: 2rem | LH: 1.3 | LS: 0 | None</div>
+                    </div>
+                </div>
+                <!-- H4 / Subtitle -->
+                <div class="type-spec">
+                    <div class="role">Heading 4 (h4)</div>
+                    <div class="preview">
+                        <h4 style="font-family: var(--font-secondary); font-size: 1.4rem; font-weight: 400; line-height: 1.4; color: var(--color-text-muted);">A tradição que se renova a cada detalhe.</h4>
+                        <div class="spec-details">Roboto Slab | W: 400 | S: 1.4rem | LH: 1.4 | LS: 0 | None</div>
+                    </div>
+                </div>
+                <!-- Body Large -->
+                <div class="type-spec">
+                    <div class="role">Body Large (p)</div>
+                    <div class="preview">
+                        <p style="font-size: 1.125rem; font-weight: 400; line-height: 1.6;">Utilizado para parágrafos introdutórios que precisam de destaque antes de conteúdos longos, melhorando a escaneabilidade.</p>
+                        <div class="spec-details">Roboto | W: 400 | S: 1.125rem | LH: 1.6 | LS: 0 | None</div>
+                    </div>
+                </div>
+                <!-- Body -->
+                <div class="type-spec">
+                    <div class="role">Body Base (p)</div>
+                    <div class="preview">
+                        <p style="font-size: 1rem; font-weight: 300; line-height: 1.7;">A legibilidade é o foco principal. Usado para blocos longos de texto, garantindo extremo conforto visual sobre os fundos brancos característicos do layout Don Maestro.</p>
+                        <div class="spec-details">Roboto | W: 300 | S: 1rem | LH: 1.7 | LS: 0 | None</div>
+                    </div>
+                </div>
+                <!-- Captions / Labels -->
+                <div class="type-spec">
+                    <div class="role">Label / helper-text</div>
+                    <div class="preview">
+                        <span class="ds-badge" style="margin:0;">Componente Ativo</span>
+                        <div class="spec-details" style="display:block; margin-top:15px;">Lexend Deca | W: 700 | S: 0.85rem | LH: 1 | LS: 2px | Uppercase</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SISTEMA DE CORES -->
+    <section class="ds-section elementor-section" id="colors">
+        <div class="container animate-on-scroll">
+            <div class="section-header">
+                <span class="ds-badge">02</span>
+                <h2 class="elementor-heading-title">Sistema de Cores</h2>
+                <p>Cores puras e fortes para criar uma estética clean, brilhante e premium.</p>
+            </div>
+
+            <div class="color-grid">
+                <!-- Branco -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: #ffffff; color: #050505;">Branco Absoluto</div>
+                    <div class="color-details">
+                        <p><span>HEX</span> <span>#FFFFFF</span></p>
+                        <p><span>RGB</span> <span>255, 255, 255</span></p>
+                        <p><span>HSL</span> <span>0, 0%, 100%</span></p>
+                        <p><span>Role</span> <span>Primary Background</span></p>
+                        <p><span>Context</span> <span>Bg / Cards / Modals</span></p>
+                        <p><span>Contrast</span> <span>AAA (com Preto)</span></p>
+                    </div>
+                </div>
+                <!-- Preto -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: #050505; color: #ffffff;">Preto Clássico</div>
+                    <div class="color-details">
+                        <p><span>HEX</span> <span>#050505</span></p>
+                        <p><span>RGB</span> <span>5, 5, 5</span></p>
+                        <p><span>HSL</span> <span>0, 0%, 2%</span></p>
+                        <p><span>Role</span> <span>Primary Text</span></p>
+                        <p><span>Context</span> <span>Titles / Buttons Bg</span></p>
+                        <p><span>Contrast</span> <span>AAA (com Branco)</span></p>
+                    </div>
+                </div>
+                <!-- Dourado -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: #c5a059; color: #ffffff;">Dourado Nogueira</div>
+                    <div class="color-details">
+                        <p><span>HEX</span> <span>#C5A059</span></p>
+                        <p><span>RGB</span> <span>197, 160, 89</span></p>
+                        <p><span>HSL</span> <span>39, 48%, 56%</span></p>
+                        <p><span>Role</span> <span>Accent / Interactive</span></p>
+                        <p><span>Context</span> <span>CTA / Hover / Icons</span></p>
+                        <p><span>Contrast</span> <span>AA (Large Text)</span></p>
+                    </div>
+                </div>
+                <!-- Gradient -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: var(--gradient-accent); color: #ffffff;">Premium Gradient</div>
+                    <div class="color-details">
+                        <p><span>Type</span> <span>Linear (135deg)</span></p>
+                        <p><span>Start</span> <span>#C5A059 (0%)</span></p>
+                        <p><span>End</span> <span>#E8C783 (100%)</span></p>
+                        <p><span>Role</span> <span>Decorative</span></p>
+                        <p><span>Context</span> <span>Badges / Highlights</span></p>
+                    </div>
+                </div>
+                 <!-- Fading -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: rgba(197, 160, 89, 0.1); color: #c5a059; border: 1px solid rgba(197, 160, 89, 0.2);">Dourado Fading</div>
+                    <div class="color-details">
+                        <p><span>HEX</span> <span>#C5A0591A</span></p>
+                        <p><span>Opacity</span> <span>10%</span></p>
+                        <p><span>Role</span> <span>Feedback / Secondary Bg</span></p>
+                        <p><span>Context</span> <span>Inputs / Tags</span></p>
+                    </div>
+                </div>
+                <!-- Neutral Gray -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background: #f9f9fa; color: #666666; border: 1px solid #eee;">Cinza Neutro</div>
+                    <div class="color-details">
+                        <p><span>HEX</span> <span>#F9F9FA</span></p>
+                        <p><span>RGB</span> <span>249, 249, 250</span></p>
+                        <p><span>Role</span> <span>Secondary Background</span></p>
+                        <p><span>Context</span> <span>Sections / Input Bg</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. COMPONENTES -->
+    <section class="ds-section" id="components">
+        <div class="container animate-on-scroll">
+            <div class="section-header">
+                <span class="ds-badge">03</span>
+                <h2 class="elementor-heading-title">UI Components</h2>
+                <p>Elementos responsivos e animados, baseados nas classes detectadas dos sites referência.</p>
+            </div>
+
+            <div class="showcase-grid">
+                
+                <!-- Buttons -->
+                <div class="component-box animate-on-scroll delay-1">
+                    <div class="component-title">Buttons (.elementor-button)</div>
+                    <div style="display: flex; flex-direction: column; gap: 20px; align-items: center; padding-top: 20px; width: 100%;">
+                        <a href="javascript:void(0)" class="elementor-button btn-primary">Agendar Horário <i class="fas fa-calendar-check"></i></a>
+                        <a href="javascript:void(0)" class="elementor-button btn-accent">Nogueira Club <i class="fas fa-crown"></i></a>
+                        <a href="javascript:void(0)" class="elementor-button btn-outline">Ver Serviços</a>
+                    </div>
+                </div>
+
+                <!-- Inputs -->
+                <div class="component-box animate-on-scroll delay-2">
+                    <div class="component-title">Inputs & Selects</div>
+                    <div style="padding-top: 20px; width: 100%;">
+                        <div class="ds-input-group">
+                            <label class="ds-label">Nome Completo</label>
+                            <input type="text" class="ds-input" placeholder="Ex: Anderson Maestro">
+                        </div>
+                        <div class="ds-input-group">
+                            <label class="ds-label">Serviço Desejado</label>
+                            <select class="ds-input">
+                                <option>Corte Maestro Tesoura</option>
+                                <option>Barba Modelada VIP</option>
+                                <option>Combinação Black</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cards (Barber Specific) -->
+                <div class="component-box animate-on-scroll delay-1">
+                    <div class="component-title">Cards (.intelligence-box)</div>
+                    <div style="padding-top: 20px; width: 100%; display: flex; justify-content: center;">
+                        <div class="intelligence-box flex-container">
+                            <i class="fas fa-cut"></i>
+                            <h4 class="heading">Corte Premium Tesoura</h4>
+                            <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.5;">A experiência completa com lavagem terapêutica, finalização impecável e consultoria de visagismo.</p>
+                            <a href="javascript:void(0)" style="color: var(--color-accent); text-decoration: none; font-weight: 800; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Saber Mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tooltips, Modals & Badges -->
+                <div class="component-box animate-on-scroll delay-2">
+                    <div class="component-title">Modals & Badges</div>
+                    <div style="padding-top: 20px; display: flex; flex-direction: column; gap: 35px; align-items: center; width: 100%;">
+                        
+                        <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+                            <span class="ds-badge" style="background: var(--color-black); color: #fff;">Exclusivo</span>
+                            <span class="ds-badge" style="background: var(--gradient-accent); color: #fff; border:none;">Em Alta</span>
+                            <span class="ds-badge" style="background: rgba(0,0,0,0.05); color: #666; border: 1px solid #ccc;">Indisponível</span>
+                        </div>
+                        
+                        <!-- Modal Fake Preview -->
+                        <div class="glassmorphism" style="padding: 30px; border-radius: 20px; width: 100%; max-width: 300px; text-align: center; position: relative;">
+                            <div style="position: absolute; top: 15px; right: 15px; cursor: pointer; color: #999;"><i class="fas fa-times"></i></div>
+                            <i class="fas fa-check-circle" style="font-size: 3rem; color: #28a745; margin-bottom: 15px;"></i>
+                            <h4 style="margin-bottom: 10px; font-family: var(--font-primary);">Agendamento Salvo!</h4>
+                            <p style="font-size: 0.9rem; color: var(--color-text-muted);">Te esperamos no horário marcado. Chegue 5 minutos antes.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ÍCONES -->
+    <section class="ds-section animated-bg" id="icons">
+        <div class="container animate-on-scroll">
+            <div class="section-header">
+                <span class="ds-badge">04</span>
+                <h2 class="elementor-heading-title">Sistema de Ícones</h2>
+                <p>FontAwesome adaptado, com microinterações em hover para dinamizar a interface.</p>
+            </div>
+            
+            <div class="icon-grid">
+                <div class="icon-box"><i class="fas fa-cut"></i></div>
+                <div class="icon-box"><i class="fas fa-calendar-alt"></i></div>
+                <div class="icon-box"><i class="fas fa-clock"></i></div>
+                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="icon-box"><i class="fas fa-crown"></i></div>
+                <div class="icon-box"><i class="fas fa-star"></i></div>
+                <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                <div class="icon-box"><i class="fab fa-instagram"></i></div>
+                <div class="icon-box"><i class="fas fa-fire"></i></div>
+                <div class="icon-box"><i class="fas fa-gem"></i></div>
+                <div class="icon-box"><i class="fas fa-mobile-screen"></i></div>
+                <div class="icon-box"><i class="fas fa-spa"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. ANIMAÇÕES -->
+    <section class="ds-section elementor-section" id="animations">
+        <div class="container animate-on-scroll">
+            <div class="section-header">
+                <span class="ds-badge">05</span>
+                <h2 class="elementor-heading-title">Biblioteca de Animações</h2>
+                <p>Passe o mouse (hover) para ativar as interações que garantem um design vivo e fora da caixa.</p>
+            </div>
+            
+            <div class="anim-grid">
+                <div class="anim-box a-fade">.animate-slide-up<br><span style="font-size:0.85rem; font-weight:400; color:var(--color-text-muted);">Surgimento suave</span></div>
+                
+                <div class="anim-box a-pulse" style="border-color: var(--color-accent); color: var(--color-accent);">.pulse-glow<br><span style="font-size:0.85rem; font-weight:400;">Destacar CTAs</span></div>
+                
+                <div class="anim-box a-float">.float-animation<br><span style="font-size:0.85rem; font-weight:400; color:var(--color-text-muted);">Objetos de fundo</span></div>
+                
+                <div class="anim-box" style="overflow:hidden; position:relative; background: var(--color-black); color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,0.3); display: flex; align-items: center; justify-content: center;">
+                    <div style="position:relative; z-index:2; font-size: 1.6rem; font-weight:900;" class="transparent-lettering animate-fill" data-text=".text-fill">.text-fill</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="background: var(--color-black); color: var(--color-white); padding: 80px 20px; text-align: center; position: relative; overflow: hidden;">
+        <h2 class="transparent-lettering" data-text="CHEFF" style="font-size: clamp(4rem, 12vw, 10rem); -webkit-text-stroke: 1px rgba(255,255,255,0.15); color: transparent; margin-bottom: 30px;">CHEFF</h2>
+        <p style="color: #888; font-size: 1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
+            Design System oficial arquitetado com inspiração no minimalismo premium de <strong>Don Maestro</strong> e no arrojo de <strong>Anderson Nogueira</strong>.
+        </p>
+        <div style="margin-top: 40px; color: var(--color-accent); font-size: 1.5rem;">
+            <i class="fab fa-instagram" style="margin: 0 10px; cursor: pointer;"></i>
+            <i class="fab fa-facebook" style="margin: 0 10px; cursor: pointer;"></i>
+            <i class="fab fa-whatsapp" style="margin: 0 10px; cursor: pointer;"></i>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVITY SCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Intersection Observer for scroll animations (Surgimento / Fade In)
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        
+                        // Trigger text fill animation for headers inside the viewed section
+                        const letters = entry.target.querySelectorAll('.transparent-lettering');
+                        letters.forEach(l => l.classList.add('animate-fill'));
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+            
+            // Re-trigger text fill on hover manually for interactive demonstration
+            const textFills = document.querySelectorAll('.transparent-lettering');
+            textFills.forEach(tf => {
+                tf.addEventListener('mouseenter', () => {
+                    tf.classList.remove('animate-fill');
+                    void tf.offsetWidth; // Force reflow
+                    tf.classList.add('animate-fill');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

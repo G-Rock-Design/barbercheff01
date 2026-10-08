@@ -1,0 +1,170 @@
+- main:
+  - button:
+  - button: Início
+  - button: Buscar
+  - button: Meus Agendamentos
+  - button:
+  - paragraph: BR
+  - heading [level=1]: Entrar
+  - heading [level=1]: Barber Cheff
+  - paragraph: "5.0"
+  - button:
+  - button: Agendar agora
+  - region:
+    - region:
+    - button:
+    - button:
+    - button
+    - button
+  - button: Serviços
+  - button: Profissionais
+  - button: Fidelidade
+  - button: Produtos
+  - button: Pacotes
+  - button: Assinaturas
+  - button: Avaliações
+  - paragraph: Corte quantas vezes quiser e pague apenas 75,90 por mês ! ASSINE JÁ O CLUBE VOCÊ TAMBÉM
+  - heading [level=1]: Comodidades
+  - heading [level=2]: Clique no item para obter informações
+  - paragraph: Wi-fi
+  - paragraph: Estacionamento
+  - paragraph: Acessibilidade
+  - paragraph: Atende crianças
+  - heading [level=2]: Assinaturas
+  - searchbox
+  - generic: Ordenar por
+  - button:
+    - text: Nome
+  - button:
+    - text: Valor
+  - button:
+    - paragraph: Clube Barba Ilimitada
+    - paragraph: Barber Cheff
+    - paragraph: Assinatura
+  - separator
+  - button:
+    - paragraph: Assinar agora por R$ 59,90/mês
+  - button:
+    - paragraph: Clube Corte Ilimitado
+    - paragraph: Barber Cheff
+    - paragraph: Assinatura
+  - separator
+  - button:
+    - paragraph: Assinar agora por R$ 75,90/mês
+  - button:
+    - paragraph: Clube Corte + Barba Ilimitado
+    - paragraph: Barber Cheff
+    - paragraph: Assinatura
+  - separator
+  - button:
+    - paragraph: Assinar agora por R$ 129,90/mês
+  - heading [level=2]: Localização
+  - paragraph: Avenida Visconde de Itaúna , 508 - 25214-415 Jardim Primavera - Duque de Caxias/RJ
+  - link:
+    - /url: https://www.google.com/maps/search/?api=1&query=-22.68759727%2C-43.2604332
+  - heading [level=2]: Horário de atendimento
+  - list:
+    - paragraph: Domingo
+    - paragraph: 09:00 - 14:10
+    - paragraph: 14:20 - 14:30
+    - paragraph: Segunda-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Terça-Feira
+    - generic: Hoje
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quarta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quinta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sexta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sábado
+    - paragraph: 08:00 - 12:00
+    - paragraph: 13:00 - 20:00
+  - heading [level=2]: Formas de pagamento
+  - paragraph: Dinheiro
+  - paragraph: Cartão de Crédito
+  - paragraph: Cartão de Débito
+  - paragraph: PIX
+  - heading [level=2]: Redes Sociais
+  - button:
+  - button:
+  - heading [level=2]: Contato
+  - paragraph: (21) 97698-5317
+  - paragraph: (21) 97698-5317
+  - contentinfo:
+    - paragraph: Uma nova experiência para uma antiga tradição.
+    - list:
+      - link:
+        - /url: https://www.facebook.com/appbarbersistema
+        - button:
+      - link:
+        - /url: https://www.instagram.com/appbarber
+        - button:
+      - link:
+        - /url: https://www.youtube.com/channel/UCADBWn80DAFUfAy2k4lwtNQ
+        - button:
+      - link:
+        - /url: https://twitter.com/AppBarber
+        - button:
+    - navigation:
+      - heading [level=3]: Acesso rápido
+      - list:
+        - link:
+          - /url: /
+          - text: Início
+        - link:
+          - /url: /buscar
+          - text: Encontrar estabelecimentos
+        - link:
+          - /url: /agendamentos
+          - text: Meus agendamentos
+        - link:
+          - /url: /favoritos
+          - text: Favoritos
+    - navigation:
+      - heading [level=3]: Mais
+      - list:
+        - link:
+          - /url: https://appbarber.com.br/termodeuso-cliente/
+          - text: Termos de uso
+        - button: Preferências de cookies
+    - region:
+      - heading [level=3]: Baixe nosso App
+      - link:
+        - /url: https://apps.apple.com/br/app/appbarber-cliente/id6450795073
+        - button:
+          - text: App Store
+      - link:
+        - /url: https://play.google.com/store/apps/details?id=br.com.starapp.appbarbercli
+        - button:
+          - text: Google Play
+    - heading [level=3]: É um gestor?
+    - paragraph: Cadastre seu estabelecimento e comece a receber agendamentos online.
+    - link:
+      - /url: https://appbarber.com.br
+      - button: Saiba mais
+    - paragraph: © 2026 StarApp Sistemas. Todos os direitos reservados.
+    - button:
+- alert
+- dialog "Clube Barba Ilimitada R$ 59,90/mês" [active]:
+  - button "Dismiss"
+  - button "Close":
+  - banner:
+    - heading "Clube Barba Ilimitada" [level=2]
+    - paragraph: R$ 59,90/mês
+  - heading "Itens disponíveis" [level=3]
+  - img "CLUBE BARBA ILIMITADO"
+  - paragraph: CLUBE BARBA ILIMITADO
+  - paragraph: 100% de desconto
+  - generic: Ilimitado
+  - generic: Disponível em todos os dias de funcionamento
+  - contentinfo:
+    - button "Assinar agora por R$ 59,90/mês"
+    - button "Fechar"
+  - button "Dismiss"

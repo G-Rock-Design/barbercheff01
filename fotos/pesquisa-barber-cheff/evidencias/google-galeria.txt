@@ -1,0 +1,38 @@
+ of BARBER CHEFF":
+  - button "Fechar caixa de diálogo" [active]:
+  - tooltip: Fechar caixa de diálogo
+  - heading "BARBER CHEFF" [level=2]
+  - button "Mudar coleção para Tudo" [pressed]:
+    - generic: Tudo
+  - button "Mudar coleção para Exterior":
+    - generic: Exterior
+  - button "Mudar coleção para Do proprietário":
+    - generic: Do proprietário
+  - button "Mudar coleção para Street View e 360°":
+    - generic: Street View e 360°
+  - grid "Galeria de fotos":
+    - row "Foto Foto Foto":
+      - gridcell "Foto" [selected]:
+        - img "Foto"
+      - gridcell "Foto":
+        - img "Foto"
+      - gridcell "Foto":
+        - img "Foto"
+  - img "Foto"
+  - link "BARBER CHEFF um mês atrás":
+    - /url: //maps.google.com/maps/contrib/116262943892204985241
+    - generic: BARBER CHEFF
+    - generic: ·
+    - generic: um mês atrás
+  - link:
+    - /url: //maps.google.com/maps/contrib/116262943892204985241
+    - generic: BARBER CHEFF
+    - generic: ·
+    - generic: um mês atrás
+  - button "Avançar":
+  - tooltip: Próxima foto
+  - generic: As imagens podem estar sujeitas a direitos autorais
+  - button "Denunciar foto":
+  - tooltip: Denunciar foto
+  - button "Fechar":
+  - tooltip: Fechar foto

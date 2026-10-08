@@ -1,0 +1,361 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDcecsdvvjK9%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - dialog:
+    - button "Fechar":
+      - img "Fechar"
+    - link "Foto do perfil de barberchef01":
+      - img "Foto do perfil de barberchef01"
+    - generic: Não perca nenhum post de barberchef01
+    - generic: Cadastre-se no Instagram para ficar por dentro das novidades.
+    - text: Ao continuar, você concorda com os
+    - link "Termos de Uso":
+      - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+    - text: e a
+    - link "Política de Privacidade":
+      - /url: https://privacycenter.instagram.com/policy/
+    - text: do Instagram.
+    - link "Cadastre-se":
+      - /url: /accounts/emailsignup/
+    - link "Entrar":
+      - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+  - img "Video by Barber Cheff on August 25, 2026. Pode ser uma ilustração de barbeador e texto."
+  - link "Foto do perfil de barberchef01":
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - generic: •
+  - button "Seguir"
+  - link "Áudio original":
+    - /url: /reels/audio/27935893519438547/
+    - generic: Áudio original
+  - button "Mais opções":
+    - img "Mais opções"
+  - separator
+  - link "Foto do perfil de barberchef01":
+    - /url: /barberchef01/
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - time: 6 sem
+  - text: ✂️ Corte em dia sem pesar no bolso!
+  - text: Por apenas R$ 75,90 por mês, você pode cortar quantas vezes quiser na Barber Chef.
+  - text: 🔥 Fez a assinatura, tá na régua o mês inteiro!
+  - text: 📲 Chama no WhatsApp e garanta a sua.
+  - link "#barbearia":
+    - /url: /explore/tags/barbearia/
+  - link "#corte":
+    - /url: /explore/tags/corte/
+  - link "#reguaatualizada🙅🏿‍":
+    - /url: /explore/tags/reguaatualizada%F0%9F%99%85%F0%9F%8F%BF%E2%80%8D/
+  - text: ♂️📏
+  - link "#viral":
+    - /url: /explore/tags/viral/
+  - link "#barbeiro":
+    - /url: /explore/tags/barbeiro/
+  - button "Carregar mais comentários":
+    - img "Carregar mais comentários"
+  - link "Foto do perfil de sebastiao.jack":
+    - /url: /sebastiao.jack/
+    - img "Foto do perfil de sebastiao.jack"
+  - link "sebastiao.jack":
+    - /url: /sebastiao.jack/
+    - generic: sebastiao.jack
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/17943544848071131/
+    - time: 5 sem
+  - generic: Só profissional top , pode confiar pessoal . Super indico 👍
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de t_almeida.leal":
+    - /url: /t_almeida.leal/
+    - img "Foto do perfil de t_almeida.leal"
+  - link "t_almeida.leal Verificado":
+    - /url: /t_almeida.leal/
+    - generic: t_almeida.leal
+    - img "Verificado"
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/18064689359765748/
+    - time: 5 sem
+  - generic: Agora é só impulsionar a postagem e arrebentar nas assinaturas, me chama na dm que eu te ajudo nessa parte!!!
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de lynpaivaoficial":
+    - /url: /lynpaivaoficial/
+    - img "Foto do perfil de lynpaivaoficial"
+  - link "lynpaivaoficial":
+    - /url: /lynpaivaoficial/
+    - generic: lynpaivaoficial
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/18064550963755764/
+    - time: 5 sem
+  - generic: 🔥🔥🔥
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de 2.bell_fx_":
+    - /url: /2.bell_fx_/
+    - img "Foto do perfil de 2.bell_fx_"
+  - link "2.bell_fx_":
+    - /url: /2.bell_fx_/
+    - generic: 2.bell_fx_
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/18349606459216086/
+    - time: 5 sem
+  - generic: Aonde ficar ??
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de isatavares77":
+    - /url: /isatavares77/
+    - img "Foto do perfil de isatavares77"
+  - link "isatavares77":
+    - /url: /isatavares77/
+    - generic: isatavares77
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/18091633454669267/
+    - time: 5 sem
+  - generic: 🚀🚀🚀🚀
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de isaiasdinizvalente":
+    - /url: /isaiasdinizvalente/
+    - img "Foto do perfil de isaiasdinizvalente"
+  - link "isaiasdinizvalente":
+    - /url: /isaiasdinizvalente/
+    - generic: isaiasdinizvalente
+  - link "5 sem":
+    - /url: /p/DcecsdvvjK9/c/17887016784615854/
+    - time: 5 sem
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de throdrgz":
+    - /url: /throdrgz/
+    - img "Foto do perfil de throdrgz"
+  - link "throdrgz":
+    - /url: /throdrgz/
+    - generic: throdrgz
+  - link "6 sem":
+    - /url: /p/DcecsdvvjK9/c/18122650525890327/
+    - time: 6 sem
+  - generic: 👏🏼🙌🏼
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de patriciavodahelena":
+    - /url: /patriciavodahelena/
+    - img "Foto do perfil de patriciavodahelena"
+  - link "patriciavodahelena":
+    - /url: /patriciavodahelena/
+    - generic: patriciavodahelena
+  - link "6 sem":
+    - /url: /p/DcecsdvvjK9/c/18009454853952579/
+    - time: 6 sem
+  - generic: Super indico, tratamento 10 😍
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de danieloliveirahlight":
+    - /url: /danieloliveirahlight/
+    - img "Foto do perfil de danieloliveirahlight"
+  - link "danieloliveirahlight Verificado":
+    - /url: /danieloliveirahlight/
+    - generic: danieloliveirahlight
+    - img "Verificado"
+  - link "6 sem":
+    - /url: /p/DcecsdvvjK9/c/18134133337627768/
+    - time: 6 sem
+  - generic: Eu gastava isso em um corte, tá muito barato!!
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de thu.anyrodrigues":
+    - /url: /thu.anyrodrigues/
+    - img "Foto do perfil de thu.anyrodrigues"
+  - link "thu.anyrodrigues":
+    - /url: /thu.anyrodrigues/
+    - generic: thu.anyrodrigues
+  - link "6 sem":
+    - /url: /p/DcecsdvvjK9/c/18109466714109760/
+    - time: 6 sem
+  - generic: 🔥👏
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - button "Curtir":
+    - img "Curtir"
+  - button "89"
+  - button "Comentar":
+    - img "Comentar"
+  - button "12"
+  - button "Compartilhar":
+    - img "Compartilhar"
+  - button "Salvar":
+    - img "Salvar"
+  - link "25 de agosto":
+    - /url: /barberchef01/reel/DcecsdvvjK9/
+    - time: 25 de agosto
+  - link "Entrar":
+    - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDcecsdvvjK9%2F&source=post_comment_input
+  - text: para curtir ou comentar.
+  - separator
+  - text: Mais posts de
+  - link "barberchef01":
+    - /url: /barberchef01/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DeDgDJDKlyl/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Ddco16nK0_6/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Db33bajvc7C/
+    - img "Clipe"
+  - link "Carrossel":
+    - /url: /barberchef01/p/DbyGY_5nJfJ/
+    - img "Carrossel"
+  - link:
+    - /url: /barberchef01/p/DbyGEvlq2WT/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbnwrXFqbDn/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbZj6qeKaAD/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Da2-qr8q14p/
+    - img "Clipe"
+  - link "Ver mais posts":
+    - /url: /barberchef01/
+    - generic: Ver mais posts
+  - separator
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta

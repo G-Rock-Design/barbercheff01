@@ -1,0 +1,301 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDak93XIKyG1%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - dialog:
+    - button "Fechar":
+      - img "Fechar"
+    - link "Foto do perfil de barberchef01":
+      - img "Foto do perfil de barberchef01"
+    - generic: Não perca nenhum post de barberchef01
+    - generic: Cadastre-se no Instagram para ficar por dentro das novidades.
+    - text: Ao continuar, você concorda com os
+    - link "Termos de Uso":
+      - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+    - text: e a
+    - link "Política de Privacidade":
+      - /url: https://privacycenter.instagram.com/policy/
+    - text: do Instagram.
+    - link "Cadastre-se":
+      - /url: /accounts/emailsignup/
+    - link "Entrar":
+      - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+  - img "Video by Barber Cheff on July 09, 2026. Pode ser uma imagem de cadeira."
+  - link "Foto do perfil de barberchef01":
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - generic: •
+  - button "Seguir"
+  - link "TOKIODK, TerrorDosBeats • NEM ERA PRA EU TÁ AQUI (Deus Que Me Escolheu)":
+    - /url: /reels/audio/1518315152577214/
+    - text: TOKIODK, TerrorDosBeats
+    - generic: •
+    - text: NEM ERA PRA EU TÁ AQUI (Deus Que Me Escolheu)
+  - button "Mais opções":
+    - img "Mais opções"
+  - separator
+  - link "Foto do perfil de barberchef01":
+    - /url: /barberchef01/
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - time: 12 sem
+  - text: O sonho deixou de ser plano e virou realidade.
+  - text: "Hoje eu só tenho uma palavra: gratidão."
+  - text: Obrigado a cada cliente, amigo e familiar que acreditou em mim. Esse é só o começo de uma história muito maior. 💛🙏💈
+  - link "#obcecado":
+    - /url: /explore/tags/obcecado/
+  - link "#reguaatualizada🙅🏿‍":
+    - /url: /explore/tags/reguaatualizada%F0%9F%99%85%F0%9F%8F%BF%E2%80%8D/
+  - text: ♂️📏
+  - link "#corte":
+    - /url: /explore/tags/corte/
+  - button "Carregar mais comentários":
+    - img "Carregar mais comentários"
+  - link "Foto do perfil de isatavares77":
+    - /url: /isatavares77/
+    - img "Foto do perfil de isatavares77"
+  - link "isatavares77":
+    - /url: /isatavares77/
+    - generic: isatavares77
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/17896188351556115/
+    - time: 12 sem
+  - generic: Parabéns, filho
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de studio_e_barbearia_tchelo_":
+    - /url: /studio_e_barbearia_tchelo_/
+    - img "Foto do perfil de studio_e_barbearia_tchelo_"
+  - link "studio_e_barbearia_tchelo_":
+    - /url: /studio_e_barbearia_tchelo_/
+    - generic: studio_e_barbearia_tchelo_
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/18121188334689046/
+    - time: 12 sem
+  - generic: Pra cima meu Mn 👏👏👏
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de valdecyrocha":
+    - /url: /valdecyrocha/
+    - img "Foto do perfil de valdecyrocha"
+  - link "valdecyrocha":
+    - /url: /valdecyrocha/
+    - generic: valdecyrocha
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/18023920694893858/
+    - time: 12 sem
+  - generic: Sucesso a todos 🚀🚀🚀
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de jonatasdsantana":
+    - /url: /jonatasdsantana/
+    - img "Foto do perfil de jonatasdsantana"
+  - link "jonatasdsantana":
+    - /url: /jonatasdsantana/
+    - generic: jonatasdsantana
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/18047394482597009/
+    - time: 12 sem
+  - generic: Parabéns meu mano , ficou braba ,sua vitória é a nossa , pra cima 🚀🚀🥳💪🏾
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de islas_ssilver":
+    - /url: /islas_ssilver/
+    - img "Foto do perfil de islas_ssilver"
+  - link "islas_ssilver":
+    - /url: /islas_ssilver/
+    - generic: islas_ssilver
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/18024107774848376/
+    - time: 12 sem
+  - generic: Merecedor demais 👏🚀
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - link "Foto do perfil de marcelo_mt02":
+    - /url: /marcelo_mt02/
+    - img "Foto do perfil de marcelo_mt02"
+  - link "marcelo_mt02":
+    - /url: /marcelo_mt02/
+    - generic: marcelo_mt02
+  - link "12 sem":
+    - /url: /p/Dak93XIKyG1/c/18347148907174742/
+    - time: 12 sem
+  - generic: 🙌🙌
+  - button "1 curtida":
+    - generic: 1 curtida
+  - button "Responder":
+    - generic: Responder
+  - button "Curtir":
+    - img "Curtir"
+  - button "54"
+  - button "Comentar":
+    - img "Comentar"
+  - button "10"
+  - button "Compartilhar":
+    - img "Compartilhar"
+  - button "Salvar":
+    - img "Salvar"
+  - link "9 de julho":
+    - /url: /barberchef01/reel/Dak93XIKyG1/
+    - time: 9 de julho
+  - link "Entrar":
+    - /url: /accounts/login/?next=%2Fbarberchef01%2Freel%2FDak93XIKyG1%2F&source=post_comment_input
+  - text: para curtir ou comentar.
+  - separator
+  - text: Mais posts de
+  - link "barberchef01":
+    - /url: /barberchef01/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DeDgDJDKlyl/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Ddco16nK0_6/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DcecsdvvjK9/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Db33bajvc7C/
+    - img "Clipe"
+  - link "Carrossel":
+    - /url: /barberchef01/p/DbyGY_5nJfJ/
+    - img "Carrossel"
+  - link:
+    - /url: /barberchef01/p/DbyGEvlq2WT/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbnwrXFqbDn/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbZj6qeKaAD/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - img "Clipe"
+  - link "Ver mais posts":
+    - /url: /barberchef01/
+    - generic: Ver mais posts
+  - separator
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta

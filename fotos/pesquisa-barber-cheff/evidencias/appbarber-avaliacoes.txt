@@ -1,0 +1,173 @@
+- main:
+  - button "Logo":
+    - img "Logo"
+  - button "Início"
+  - button "Buscar"
+  - button "Meus Agendamentos"
+  - button:
+  - img "Português - Brasil"
+  - paragraph: BR
+  - img "avatar":
+  - heading "Entrar" [level=1]
+  - img "Barber Cheff"
+  - heading "Barber Cheff" [level=1]
+  - paragraph: "5.0"
+  - button:
+  - button "Agendar agora"
+  - region:
+    - region:
+      - img "Imagem do estabelecimento 1":
+        - img "Imagem do estabelecimento 1"
+      - img "Imagem do estabelecimento 2":
+        - img "Imagem do estabelecimento 2"
+    - button:
+    - button:
+    - button
+    - button
+  - button "Serviços"
+  - button "Profissionais"
+  - button "Fidelidade"
+  - button "Produtos"
+  - button "Pacotes"
+  - button "Assinaturas"
+  - button "Avaliações" [active]
+  - paragraph: Corte quantas vezes quiser e pague apenas 75,90 por mês ! ASSINE JÁ O CLUBE VOCÊ TAMBÉM
+  - heading "Comodidades" [level=1]
+  - heading "Clique no item para obter informações" [level=2]
+  - paragraph: Wi-fi
+  - paragraph: Estacionamento
+  - paragraph: Acessibilidade
+  - paragraph: Atende crianças
+  - heading "Avaliações" [level=2]
+  - searchbox "Pesquisar"
+  - img "Leo santos"
+  - paragraph: Leo santos
+  - paragraph: 13/08/2026 21:10
+  - paragraph: Avaliação
+  - paragraph: Ambiente super confortável climatizado , ótimo atendimento
+  - img "Emmanoel luiz dos Santos Cavalcante"
+  - paragraph: Emmanoel luiz dos Santos Cavalcante
+  - paragraph: 09/08/2026 17:59
+  - paragraph: Avaliação
+  - paragraph
+  - img "André Luiz"
+  - paragraph: André Luiz
+  - paragraph: 04/08/2026 10:03
+  - paragraph: Avaliação
+  - paragraph
+  - heading "Avaliar estabelecimento" [level=1]
+  - generic: 1 Star
+  - radio "1 Star"
+  - generic: 2 Stars
+  - radio "2 Stars"
+  - generic: 3 Stars
+  - radio "3 Stars"
+  - generic: 4 Stars
+  - radio "4 Stars"
+  - generic: 5 Stars
+  - radio "5 Stars" [checked]
+  - radio "Empty"
+  - generic: Empty
+  - textbox "Comentário (Opcional)"
+  - heading "200 caracteres." [level=1]
+  - button "Enviar avaliação"
+  - navigation "pagination navigation":
+    - list:
+      - generic: "1"
+      - button "previous page button" [disabled]:
+      - button "pagination item 1 active": "1"
+      - button "next page button" [disabled]:
+  - heading "Localização" [level=2]
+  - paragraph: Avenida Visconde de Itaúna , 508 - 25214-415 Jardim Primavera - Duque de Caxias/RJ
+  - link:
+    - /url: https://www.google.com/maps/search/?api=1&query=-22.68759727%2C-43.2604332
+  - heading "Horário de atendimento" [level=2]
+  - list:
+    - paragraph: Domingo
+    - paragraph: 09:00 - 14:10
+    - paragraph: 14:20 - 14:30
+    - paragraph: Segunda-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Terça-Feira
+    - generic: Hoje
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quarta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Quinta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sexta-Feira
+    - paragraph: 09:00 - 12:00
+    - paragraph: 13:00 - 20:00
+    - paragraph: Sábado
+    - paragraph: 08:00 - 12:00
+    - paragraph: 13:00 - 20:00
+  - heading "Formas de pagamento" [level=2]
+  - paragraph: Dinheiro
+  - paragraph: Cartão de Crédito
+  - paragraph: Cartão de Débito
+  - paragraph: PIX
+  - heading "Redes Sociais" [level=2]
+  - button "(21) 97698-5317":
+  - button "@barberchef01":
+  - heading "Contato" [level=2]
+  - generic "Clique para copiar":
+    - paragraph: (21) 97698-5317
+  - generic "Clique para copiar":
+    - paragraph: (21) 97698-5317
+  - contentinfo:
+    - img "Logo barber"
+    - paragraph:
+      - text: Uma nova experiência
+      - text: para uma antiga tradição.
+    - list "Links das redes sociais":
+      - link "Seguir no Facebook":
+        - /url: https://www.facebook.com/appbarbersistema
+        - button:
+      - link "Seguir no Instagram":
+        - /url: https://www.instagram.com/appbarber
+        - button:
+      - link "Seguir no YouTube":
+        - /url: https://www.youtube.com/channel/UCADBWn80DAFUfAy2k4lwtNQ
+        - button:
+      - link "Seguir no X (Twitter)":
+        - /url: https://twitter.com/AppBarber
+        - button:
+    - navigation "Links de navegação principal":
+      - heading "Acesso rápido" [level=3]
+      - list:
+        - link "Início":
+          - /url: /
+        - link "Encontrar estabelecimentos":
+          - /url: /buscar
+        - link "Meus agendamentos":
+          - /url: /agendamentos
+        - link "Favoritos":
+          - /url: /favoritos
+    - navigation "Links adicionais":
+      - heading "Mais" [level=3]
+      - list:
+        - link "Termos de uso":
+          - /url: https://appbarber.com.br/termodeuso-cliente/
+        - button "Preferências de cookies"
+    - region "Download do aplicativo":
+      - heading "Baixe nosso App" [level=3]
+      - link "Baixar na App Store":
+        - /url: https://apps.apple.com/br/app/appbarber-cliente/id6450795073
+        - button "Baixar na App Store":
+          - text: App Store
+      - link "Baixar no Google Play":
+        - /url: https://play.google.com/store/apps/details?id=br.com.starapp.appbarbercli
+        - button "Baixar no Google Play":
+          - text: Google Play
+    - heading "É um gestor?" [level=3]
+    - paragraph: Cadastre seu estabelecimento e comece a receber agendamentos online.
+    - link "Saiba mais":
+      - /url: https://appbarber.com.br
+      - button "Saiba mais"
+    - paragraph: © 2026 StarApp Sistemas. Todos os direitos reservados.
+    - button "Voltar ao topo da página":
+- alert

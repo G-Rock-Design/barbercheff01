@@ -1,0 +1,235 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fbarberchef01%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - button "Ver story do perfil":
+    - link "Foto do perfil de barberchef01":
+      - img "Foto do perfil de barberchef01"
+  - heading "barberchef01" [level=2]:
+    - generic: barberchef01
+  - list:
+    - link "1.402 seguidores":
+      - /url: "#"
+      - generic "1.402"
+      - text: seguidores
+    - link "665 seguindo":
+      - /url: "#"
+      - generic: "665"
+      - text: seguindo
+  - generic: Barber Cheff
+  - link "Threads barberchef01":
+    - /url: https://www.threads.com/@barberchef01?xmt=AQG0EtY_eTofFsvqUK7H0GR-KP_Hmr7XOmHtYo9QGPoEIRI
+    - img "Threads"
+    - generic: barberchef01
+  - button "💈Cortes clássicos e modernos | Barba na régua Agende seu horário pelo link anexado abaixo 👇 📍Av. Visconde de Itaúna":
+    - text: 💈Cortes clássicos e modernos | Barba na régua
+    - text: Agende seu horário pelo link anexado abaixo 👇
+    - text: 📍Av. Visconde de Itaúna
+  - text: ...
+  - button "mais":
+    - generic: mais
+  - button "Ícone de link sites.appbarber.com.br/barbercheff-jmf9 e mais 1":
+    - img "Ícone de link"
+    - generic: sites.appbarber.com.br/barbercheff-jmf9 e mais 1
+  - menu:
+    - list:
+      - link "Ver destaque de Destaques":
+        - /url: /stories/highlights/17912393532133358/
+        - button "Foto do story no destaque de barberchef01 Destaques":
+          - button "Foto do story no destaque de barberchef01":
+            - img "Foto do story no destaque de barberchef01"
+          - generic: Destaques
+      - link "Ver destaque de Sábadão":
+        - /url: /stories/highlights/18069935660047731/
+        - button "Foto do story no destaque de barberchef01 Sábadão":
+          - button "Foto do story no destaque de barberchef01":
+            - img "Foto do story no destaque de barberchef01"
+          - generic: Sábadão
+      - link "Ver destaque de 21":
+        - /url: /stories/highlights/17906925330174569/
+        - button "Foto do story no destaque de barberchef01 21":
+          - button "Foto do story no destaque de barberchef01":
+            - img "Foto do story no destaque de barberchef01"
+          - generic: "21"
+      - link "Ver destaque de Com minha gata":
+        - /url: /stories/highlights/18101601520545302/
+        - button "Foto do story no destaque de barberchef01 Com minha gata":
+          - button "Foto do story no destaque de barberchef01":
+            - img "Foto do story no destaque de barberchef01"
+          - generic: Com minha gata
+      - link "Ver destaque de Mas um dia 🫡🫠":
+        - /url: /stories/highlights/18044116337234909/
+        - button "Foto do story no destaque de barberchef01 Mas um dia 🫡🫠":
+          - button "Foto do story no destaque de barberchef01":
+            - img "Foto do story no destaque de barberchef01"
+          - generic: Mas um dia 🫡🫠
+  - tablist:
+    - link "Posts":
+      - /url: /barberchef01/
+      - img "Posts"
+    - link "Reels":
+      - /url: "#"
+      - img "Reels"
+    - link "Marcados":
+      - /url: "#"
+      - img "Marcados"
+  - tabpanel
+  - link "Video by Barber Cheff on October 03, 2026. Pode ser uma imagem de uma ou mais pessoas, barba, pelo, barbeador e texto. Clipe":
+    - /url: /barberchef01/reel/DeDgDJDKlyl/
+    - img "Video by Barber Cheff on October 03, 2026. Pode ser uma imagem de uma ou mais pessoas, barba, pelo, barbeador e texto."
+    - img "Clipe"
+  - link "Video by Barber Cheff on September 18, 2026. Pode ser uma imagem de barbeador e texto. Clipe":
+    - /url: /barberchef01/reel/Ddco16nK0_6/
+    - img "Video by Barber Cheff on September 18, 2026. Pode ser uma imagem de barbeador e texto."
+    - img "Clipe"
+  - link "Video by Barber Cheff on August 25, 2026. Pode ser uma ilustração de barbeador e texto. Clipe":
+    - /url: /barberchef01/reel/DcecsdvvjK9/
+    - img "Video by Barber Cheff on August 25, 2026. Pode ser uma ilustração de barbeador e texto."
+    - img "Clipe"
+  - link "Video by Barber Cheff on August 10, 2026. Pode ser uma imagem de uma ou mais pessoas, barba e texto que diz \"RTE BARBA ΒA BAR\". Clipe":
+    - /url: /barberchef01/reel/Db33bajvc7C/
+    - img "Video by Barber Cheff on August 10, 2026. Pode ser uma imagem de uma ou mais pessoas, barba e texto que diz \"RTE BARBA ΒA BAR\"."
+    - img "Clipe"
+  - link "Photo by Barber Cheff on August 08, 2026. Carrossel":
+    - /url: /barberchef01/p/DbyGY_5nJfJ/
+    - img "Photo by Barber Cheff on August 08, 2026."
+    - img "Carrossel"
+  - link "Photo by Barber Cheff on August 08, 2026. Pode ser uma imagem de vitrine, tabuleta e texto que diz \"BRRBER CHEFF CORTE ESTILO BARBER CHEFF BARBER BARBERCHEFFBARBERCHEFF CHEFF CLUBEDEASSINATURA CLUBE DEASSINATURA CORTE QUANTAS VEZES QUISER 75,90MES MẼS TODOSNAGENCAMENTO SEM TODOS AGENDANENTO OSDIAS FIDELIDADE LOAP FAÇA PARTE -FAÇAPARTEDOCLUBE- DO oc CLUBE\".":
+    - /url: /barberchef01/p/DbyGEvlq2WT/
+    - img "Photo by Barber Cheff on August 08, 2026. Pode ser uma imagem de vitrine, tabuleta e texto que diz \"BRRBER CHEFF CORTE ESTILO BARBER CHEFF BARBER BARBERCHEFFBARBERCHEFF CHEFF CLUBEDEASSINATURA CLUBE DEASSINATURA CORTE QUANTAS VEZES QUISER 75,90MES MẼS TODOSNAGENCAMENTO SEM TODOS AGENDANENTO OSDIAS FIDELIDADE LOAP FAÇA PARTE -FAÇAPARTEDOCLUBE- DO oc CLUBE\"."
+  - link "Video by Barber Cheff on August 04, 2026. Pode ser uma imagem de eclipse, noite e texto. Clipe":
+    - /url: /barberchef01/reel/DbnwrXFqbDn/
+    - img "Video by Barber Cheff on August 04, 2026. Pode ser uma imagem de eclipse, noite e texto."
+    - img "Clipe"
+  - link "Video by Barber Cheff on July 29, 2026. Pode ser uma imagem de texto que diz \"IDA\". Clipe":
+    - /url: /barberchef01/reel/DbZj6qeKaAD/
+    - img "Video by Barber Cheff on July 29, 2026. Pode ser uma imagem de texto que diz \"IDA\"."
+    - img "Clipe"
+  - link "Video by @gbcorte.021 on July 22, 2026. Pode ser um meme de uma ou mais pessoas e pelo. Clipe":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - img "Video by @gbcorte.021 on July 22, 2026. Pode ser um meme de uma ou mais pessoas e pelo."
+    - img "Clipe"
+  - link "Video by Barber Cheff on July 16, 2026. Pode ser uma imagem de uma ou mais pessoas e pelo. Clipe":
+    - /url: /barberchef01/reel/Da2-qr8q14p/
+    - img "Video by Barber Cheff on July 16, 2026. Pode ser uma imagem de uma ou mais pessoas e pelo."
+    - img "Clipe"
+  - link "Video by Barber Cheff on July 10, 2026. Pode ser uma imagem de uma ou mais pessoas e pelo. Clipe":
+    - /url: /barberchef01/reel/Danc7LrqXdM/
+    - img "Video by Barber Cheff on July 10, 2026. Pode ser uma imagem de uma ou mais pessoas e pelo."
+    - img "Clipe"
+  - link "Video by Barber Cheff on July 09, 2026. Pode ser uma imagem de cadeira. Clipe":
+    - /url: /barberchef01/reel/Dak93XIKyG1/
+    - img "Video by Barber Cheff on July 09, 2026. Pode ser uma imagem de cadeira."
+    - img "Clipe"
+  - button "Mostrar mais posts de barberchef01":
+    - generic: Mostrar mais posts de barberchef01
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta

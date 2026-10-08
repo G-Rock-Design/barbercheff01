@@ -1,0 +1,212 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "Entrar":
+  - /url: /accounts/login/?next=%2Fbarberchef01%2Fp%2FDbyGEvlq2WT%2F&source=desktop_nav
+- link "Cadastre-se":
+  - /url: /accounts/emailsignup/
+- main:
+  - dialog:
+    - button "Fechar":
+      - img "Fechar"
+    - link "Foto do perfil de barberchef01":
+      - img "Foto do perfil de barberchef01"
+    - generic: Não perca nenhum post de barberchef01
+    - generic: Cadastre-se no Instagram para ficar por dentro das novidades.
+    - text: Ao continuar, você concorda com os
+    - link "Termos de Uso":
+      - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+    - text: e a
+    - link "Política de Privacidade":
+      - /url: https://privacycenter.instagram.com/policy/
+    - text: do Instagram.
+    - link "Cadastre-se":
+      - /url: /accounts/emailsignup/
+    - link "Entrar":
+      - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+  - img "Photo by Barber Cheff on August 08, 2026. Pode ser uma imagem de vitrine, tabuleta e texto que diz \"BRRBER CHEFF CORTE ESTILO BARBER CHEFF BARBER BARBERCHEFFBARBERCHEFF CHEFF CLUBEDEASSINATURA CLUBE DEASSINATURA CORTE QUANTAS VEZES QUISER 75,90MES MẼS TODOSNAGENCAMENTO SEM TODOS AGENDANENTO OSDIAS FIDELIDADE LOAP FAÇA PARTE -FAÇAPARTEDOCLUBE- DO oc CLUBE\"."
+  - link "Foto do perfil de barberchef01":
+    - img "Foto do perfil de barberchef01"
+  - link "barberchef01":
+    - /url: /barberchef01/
+    - generic: barberchef01
+  - generic: •
+  - button "Seguir"
+  - button "Mais opções":
+    - img "Mais opções"
+  - separator
+  - button "Carregar mais comentários":
+    - img "Carregar mais comentários"
+  - link "Foto do perfil de jeffersonlima25":
+    - /url: /jeffersonlima25/
+    - img "Foto do perfil de jeffersonlima25"
+  - link "jeffersonlima25":
+    - /url: /jeffersonlima25/
+    - generic: jeffersonlima25
+  - link "8 sem":
+    - /url: /p/DbyGEvlq2WT/c/18125971699743430/
+    - time: 8 sem
+  - text: ⭐️⭐️⭐️⭐️⭐️ Atendimento excelente! Profissionais super qualificados, ambiente climatizado, confortável e com um design impecável. Sem dúvidas, um dos melhores lugares para quem gosta de manter o cabelo sempre na régua! 💈🔥
+  - text: "E o melhor: agora eles têm um Clube de Assinatura! Você escolhe o tipo de serviço que mais combina com você, paga um valor fixo mensal e pode realizar quantos atendimentos desejar durante o mês. 😍✂️"
+  - text: Uma proposta que vale muito a pena para quem gosta de estar sempre bem cuidado, com praticidade, qualidade e economia. Recomendo demais! 👏🏽🔥
+  - button "Curtir":
+    - generic: Curtir
+  - button "Responder":
+    - generic: Responder
+  - button "Curtir":
+    - img "Curtir"
+  - button "40"
+  - button "Comentar":
+    - img "Comentar"
+  - button "1"
+  - button "Compartilhar":
+    - img "Compartilhar"
+  - button "Salvar":
+    - img "Salvar"
+  - link "8 de agosto":
+    - /url: /barberchef01/p/DbyGEvlq2WT/
+    - time: 8 de agosto
+  - link "Entrar":
+    - /url: /accounts/login/?next=%2Fbarberchef01%2Fp%2FDbyGEvlq2WT%2F&source=post_comment_input
+  - text: para curtir ou comentar.
+  - separator
+  - text: Mais posts de
+  - link "barberchef01":
+    - /url: /barberchef01/
+  - link "Clipe":
+    - /url: /barberchef01/reel/DeDgDJDKlyl/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Ddco16nK0_6/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DcecsdvvjK9/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Db33bajvc7C/
+    - img "Clipe"
+  - link "Carrossel":
+    - /url: /barberchef01/p/DbyGY_5nJfJ/
+    - img "Carrossel"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbnwrXFqbDn/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/DbZj6qeKaAD/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /gbcorte.021/reel/DbG9slTzXOC/
+    - img "Clipe"
+  - link "Clipe":
+    - /url: /barberchef01/reel/Da2-qr8q14p/
+    - img "Clipe"
+  - link "Ver mais posts":
+    - /url: /barberchef01/
+    - generic: Ver mais posts
+  - separator
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "Sobre":
+    - /url: https://about.instagram.com/
+    - generic: Sobre
+  - link "Blog":
+    - /url: https://about.instagram.com/blog/
+    - generic: Blog
+  - link "Carreiras":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: Carreiras
+  - link "Ajuda":
+    - /url: https://help.instagram.com/
+    - generic: Ajuda
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "Privacidade":
+    - /url: /legal/privacy/
+    - generic: Privacidade
+  - link "Termos":
+    - /url: /legal/terms/
+    - generic: Termos
+  - link "Localizações":
+    - /url: /explore/locations/
+    - generic: Localizações
+  - link "Popular":
+    - /url: /popular/
+    - generic: Popular
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "Upload de contatos e não usuários":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: Upload de contatos e não usuários
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: Português (Brasil)
+  - img "Ícone de seta para baixo"
+  - combobox "Trocar idioma de exibição":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)" [selected]
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta
